@@ -1,0 +1,273 @@
+{
+    "security.workspace.trust.enabled": false,
+    "window.restoreWindows": "none",
+    "update.showReleaseNotes": false,
+    "explorer.excludeGitIgnore": false,
+    "files.autoGuessEncoding": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modificationsIfAvailable",
+    "editor.formatOnType": true,
+    "editor.linkedEditing": true,
+    // "editor.fontSize": 16,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'Victor Mono SemiBold', 'Cascadia Code', 'Jetbrains Mono', 'Fira Code Retina', Menlo, Monaco, Consolas, 'Courier New', monospace",
+    "terminal.integrated.fontFamily": "'VictorMono NF SemiBold', 'Cascadia Mono NF', 'Jetbrains Mono NL', 'MesloLGS NF'",
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "window.autoDetectColorScheme": true,
+    "workbench.preferredDarkColorTheme": "Atom One Dark",
+    "workbench.preferredLightColorTheme": "Atom One Light",
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.iconTheme": "material-icon-theme",
+    "javascript.preferences.renameMatchingJsxTags": true,
+    "typescript.preferences.renameMatchingJsxTags": true,
+    "debug.allowBreakpointsEverywhere": true,
+    "[shellscript]": {
+        "files.eol": "\n",
+        "editor.fontLigatures": false
+    },
+    "[bat]": {
+        "files.eol": "\r\n",
+        "editor.fontLigatures": false
+    },
+    "[markdown]": {
+        "editor.quickSuggestions": {
+            "comments": "on",
+            "strings": "on",
+            "other": "on"
+        }
+    },
+    "markdown-preview-enhanced.enableExtendedTableSyntax": false,
+    "markdown-preview-enhanced.enableTypographer": true,
+    "markdown-preview-enhanced.enableHTML5Embed": true,
+    "markdown-preview-enhanced.HTML5EmbedUseLinkSyntax": true,
+    "markdown-preview-enhanced.HTML5EmbedIsAllowedHttp": true,
+    "markdown-preview-enhanced.enableCriticMarkupSyntax": true,
+    "markdown-preview-enhanced.enablePreviewZenMode": true,
+    "markdown-preview-enhanced.previewColorScheme": "editorColorScheme",
+    // "markdown-preview-enhanced.puppeteerWaitForTimeout": 5000,
+    // "markdown-preview-enhanced.chromePath": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "telemetry.telemetryLevel": "off",
+    "dotnet.enableTelemetry": false,
+    "dotnet-test-explorer.enableTelemetry": false,
+    "rest-client.enableTelemetry": false,
+    "dotnetAcquisitionExtension.enableTelemetry": false,
+    "dotnetAcquisitionExtension.installTimeoutValue": 0,
+    "dotnetAcquisitionExtension.existingDotnetPath": [
+        {
+            "extensionId": "ms-dotnettools.csharp",
+            "path": "C:\\Program Files\\dotnet\\dotnet.exe"
+            // "path": "/usr/local/share/dotnet/dotnet"
+        },
+        {
+            "extensionId": "ms-dotnettools.csdevkit",
+            "path": "C:\\Program Files\\dotnet\\dotnet.exe"
+            // "path": "/usr/local/share/dotnet/dotnet"
+        },
+        {
+            "extensionId": "visualstudiotoolsforunity.vstuc",
+            "path": "C:\\Program Files\\dotnet\\dotnet.exe"
+            // "path": "/usr/local/share/dotnet/dotnet"
+        },
+        {
+            "extensionId": "msazurermtools.azurerm-vscode-tools",
+            "path": "C:\\Program Files\\dotnet\\dotnet.exe"
+            // "path": "/usr/local/share/dotnet/dotnet"
+        },
+        {
+            "extensionId": "ms-dotnettools.vscode-dotnet-runtime",
+            "path": "C:\\Program Files\\dotnet\\dotnet.exe"
+            // "path": "/usr/local/share/dotnet/dotnet"
+        },
+        {
+            "extensionId": "ms-dotnettools.vscodeintellicode-csharp",
+            "path": "C:\\Program Files\\dotnet\\dotnet.exe"
+            // "path": "/usr/local/share/dotnet/dotnet"
+        },
+        {
+            "extensionId": "tintoy.msbuild-project-tools",
+            "path": "C:\\Program Files\\dotnet\\dotnet.exe"
+            // "path": "/usr/local/share/dotnet/dotnet"
+        },
+    ],
+    "dotnet.dotnetPath": "C:\\Program Files\\dotnet",
+    // "dotnet.dotnetPath": "/usr/local/share/dotnet",
+    "csharp.inlayHints.enableInlayHintsForImplicitObjectCreation": true,
+    "csharp.inlayHints.enableInlayHintsForImplicitVariableTypes": true,
+    "csharp.inlayHints.enableInlayHintsForLambdaParameterTypes": true,
+    "csharp.inlayHints.enableInlayHintsForTypes": true,
+    "dotnet.inlayHints.enableInlayHintsForIndexerParameters": true,
+    "dotnet.inlayHints.enableInlayHintsForLiteralParameters": true,
+    "dotnet.inlayHints.enableInlayHintsForObjectCreationParameters": true,
+    "dotnet.inlayHints.enableInlayHintsForOtherParameters": true,
+    "dotnet.inlayHints.enableInlayHintsForParameters": true,
+    "dotnet.inlayHints.suppressInlayHintsForParametersThatDifferOnlyBySuffix": true,
+    "dotnet.inlayHints.suppressInlayHintsForParametersThatMatchArgumentName": true,
+    "dotnet.inlayHints.suppressInlayHintsForParametersThatMatchMethodIntent": true,
+    "coverage-gutters.showLineCoverage": true,
+    "coverage-gutters.showRulerCoverage": true,
+    "clipboard-manager.preview": true,
+    "clipboard-manager.snippet.enabled": false,
+    "todo-tree.highlights.useColourScheme": true,
+    "todo-tree.regex.regexCaseSensitive": false,
+    "todo-tree.highlights.customHighlight": {
+        "[ ]": {
+            "background": "#ff000080"
+        },
+        "[x]": {
+            "background": "#00ff0080"
+        }
+    },
+    "csv-edit.readOption_hasHeader": "true",
+    "clock.dateFormat": "H:MM",
+    "easy-codesnap.showWindowControls": false,
+    "numberedBookmarks.navigateThroughAllFiles": "replace",
+    //// VIM
+    // "editor.lineNumbers": "relative",
+    // "vim.disableExtension": false,
+    // "vim.easymotion": true,
+    // "vim.sneak": true,
+    // "vim.camelCaseMotion.enable": true,
+    // "vim.replaceWithRegister": true,
+    // "vim.useSystemClipboard": true,
+    // "vim.useCtrlKeys": true,
+    // "vim.hlsearch": true,
+    // "extensions.experimental.affinity": {
+    //     "vscodevim.vim": 1
+    // },
+    // "vim.insertModeKeyBindings": [
+    //     {
+    //         "before": [
+    //             "j",
+    //             "j"
+    //         ],
+    //         "after": [
+    //             "<Esc>"
+    //         ]
+    //     }
+    // ],
+    // "vim.normalModeKeyBindingsNonRecursive": [
+    //     {
+    //         "before": [
+    //             "<leader>",
+    //             "d"
+    //         ],
+    //         "after": [
+    //             "d",
+    //             "d"
+    //         ]
+    //     },
+    //     {
+    //         "before": [
+    //             "<C-n>"
+    //         ],
+    //         "commands": [
+    //             ":nohl"
+    //         ]
+    //     },
+    //     {
+    //         "before": [
+    //             "K"
+    //         ],
+    //         "commands": [
+    //             "lineBreakInsert"
+    //         ],
+    //         "silent": true
+    //     },
+    //     {
+    //         "before": [
+    //             "<leader>",
+    //             "f"
+    //         ],
+    //         "commands": [
+    //             "actions.find"
+    //         ]
+    //     },
+    //     {
+    //         "before": [
+    //             "<leader>",
+    //             "h"
+    //         ],
+    //         "commands": [
+    //             "editor.action.startFindReplaceAction"
+    //         ]
+    //     }
+    // ],
+    // "vim.normalModeKeyBindings": [
+    //     {
+    //         "before": [
+    //             "<leader>",
+    //             ";"
+    //         ],
+    //         "after": [
+    //             "A",
+    //             ";",
+    //             "<Esc>"
+    //         ]
+    //     },
+    //     {
+    //         "before": [
+    //             "<leader>",
+    //             "/"
+    //         ],
+    //         "commands": [
+    //             "editor.action.commentLine"
+    //         ]
+    //     },
+    //     {
+    //         "before": [
+    //             "<leader>",
+    //             "\\"
+    //         ],
+    //         "commands": [
+    //             "editor.action.blockComment"
+    //         ]
+    //     }
+    // ],
+    // "vim.visualModeKeyBindings": [
+    //     {
+    //         "before": [
+    //             "<leader>",
+    //             "/"
+    //         ],
+    //         "commands": [
+    //             "editor.action.commentLine"
+    //         ]
+    //     },
+    //     {
+    //         "before": [
+    //             "<leader>",
+    //             "\\"
+    //         ],
+    //         "commands": [
+    //             "editor.action.blockComment"
+    //         ]
+    //     },
+    //     {
+    //         "before": [
+    //             ">"
+    //         ],
+    //         "commands": [
+    //             "editor.action.indentLines"
+    //         ]
+    //     },
+    //     {
+    //         "before": [
+    //             "<"
+    //         ],
+    //         "commands": [
+    //             "editor.action.outdentLines"
+    //         ]
+    //     }
+    // ],
+    // "vim.leader": "<space>",
+    // "vim.handleKeys": {
+    //     "<C-a>": true,
+    //     "<C-x>": true,
+    //     "<C-f>": true,
+    //     "<C-c>": false,
+    //     "<C-s>": false,
+    // },
+}

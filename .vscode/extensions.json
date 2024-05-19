@@ -1,0 +1,105 @@
+{
+    "recommendations": [
+        //// --- UI
+        "akamud.vscode-theme-onedark",
+        "akamud.vscode-theme-onelight",
+        "pkief.material-icon-theme",
+
+        //// --- status bar
+        "compulim.vscode-clock",
+        "compulim.vscode-ipaddress",
+
+        //// --- Chinese Language
+        // "ms-ceintl.vscode-language-pack-zh-hans",
+        // "w88975.code-translate",
+
+        //// --- markdown
+        "foam.foam-vscode",
+        "shd101wyy.markdown-preview-enhanced",
+        "kukushi.pasteurl",
+        "takumii.markdowntable",
+        "telesoho.vscode-markdown-paste-image",
+        "yzhang.markdown-all-in-one",
+
+        //// --- git
+        "donjayamanne.githistory",
+        "waderyan.gitblame",
+
+        //// --- code
+        // "formulahendry.code-runner",
+        "alefragnani.numbered-bookmarks",
+        "alefragnani.project-manager",
+        "arthurlobo.easy-codesnap",
+        "christian-kohler.path-intellisense",
+        "edgardmessias.clipboard-manager",
+        "eriklynd.json-tools",
+        "gruntfuggly.todo-tree",
+        "humao.rest-client",
+        "ibm.output-colorizer",
+        "ms-vscode.live-server",
+        "pflannery.vscode-versionlens",
+        "oderwat.indent-rainbow",
+        "shardulm94.trailing-spaces",
+        "streetsidesoftware.code-spell-checker",
+        "usernamehw.errorlens",
+
+        //// --- string
+        // "marclipovsky.string-manipulation",
+        // "chouzz.vscode-better-align",
+        "ciiqr.encode",
+        "gurayyarar.dummytextgenerator",
+        "nhoizey.gremlins",
+
+        //// --- XML
+        "dotjoshjohnson.xml",
+        "formulahendry.auto-close-tag",
+        "formulahendry.auto-rename-tag",
+
+        //// --- Rust
+        // "tauri-apps.tauri-vscode",
+        "rust-lang.rust-analyzer",
+        "serayuzgur.crates",
+        "tamasfe.even-better-toml",
+        "vadimcn.vscode-lldb",
+
+        //// --- C++
+        // "ms-vscode.cpptools",
+        // "ms-vscode.cmake-tools",
+        // "jeff-hykin.better-cpp-syntax",
+
+        //// --- C#
+        "adrianwilczynski.add-reference",
+        "adrianwilczynski.namespace",
+        "aliasadidev.nugetpackagemanagergui",
+        "bierner.emojisense",
+        "doggy8088.quicktype-refresh",
+        "formulahendry.dotnet",
+        "formulahendry.dotnet-test-explorer",
+        "kisstkondoros.vscode-gutter-preview",
+        "ms-dotnettools.csharp",
+        "ms-dotnettools.vscode-dotnet-runtime",
+        "ryanluker.vscode-coverage-gutters",
+        "k--kato.docomment",
+        "tintoy.msbuild-project-tools",
+        "zxh404.vscode-proto3",
+
+        //// --- shell script
+        "foxundermoon.shell-format",
+
+        //// --- csv
+        "janisdd.vscode-edit-csv",
+        "mechatroner.rainbow-csv",
+
+        //// --- draw
+        "hediet.vscode-drawio",
+        "jock.svg",
+
+        //// --- HEX
+        "ms-vscode.hexeditor",
+
+        //// --- Remote
+        "ms-vscode.remote-explorer",
+        "ms-vscode-remote.remote-ssh",
+        "ms-vscode-remote.remote-ssh-edit"
+    ]
+}
