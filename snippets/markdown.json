@@ -1,0 +1,95 @@
+{
+	"Add html tags: details": {
+		"prefix": "details-tag",
+		"body": [
+			"<details>",
+			"<summary>$1</summary>",
+			"",
+			"${2:content}",
+			"",
+			"</details>",
+			"$0"
+		],
+		"description": "add html tags: details"
+	},
+	"Add html tags: span with red": {
+		"prefix": "red-span-tag",
+		"body": [
+			"<span style='color:red'>$1</span>$0"
+		],
+		"description": "add html tags: red span"
+	},
+	"Add html tags: span with green": {
+		"prefix": "green-span-tag",
+		"body": [
+			"<span style='color:green'>$1</span>$0"
+		],
+		"description": "add html tags: green span"
+	},
+	"Add html tags: span with blue": {
+		"prefix": "blue-span-tag",
+		"body": [
+			"<span style='color:blue'>$1</span>$0"
+		],
+		"description": "add html tags: blue span"
+	},
+	"Add html tags: span with color": {
+		"prefix": "color-span-tag",
+		"body": [
+			"<span style='color:${1:yellow}'>$2</span>$0"
+		],
+		"description": "add html tags: color span"
+	},
+	"Add html tags: video": {
+		"prefix": "video-tag",
+		"body": [
+			"<video controls src='${1:video_url}'></video>$0"
+		],
+		"description": "add html tags: video"
+	},
+	"[!NOTE] block": {
+		"prefix": "!note",
+		"body": [
+			"> [!NOTE]",
+			"> ${1:Highlights information that users should take into account, even when skimming.}",
+			"$0"
+		],
+		"description": "add [!NOTE] block"
+	},
+	"[!TIP] block": {
+		"prefix": "!tip",
+		"body": [
+			"> [!TIP]",
+			"> ${1:Optional information to help a user be more successful.}",
+			"$0"
+		],
+		"description": "add [!TIP] block"
+	},
+	"[!IMPORTANT] block": {
+		"prefix": "!important",
+		"body": [
+			"> [!IMPORTANT]",
+			"> ${1:Crucial information necessary for users to succeed.}",
+			"$0"
+		],
+		"description": "add [!IMPORTANT] block"
+	},
+	"[!WARNING] block": {
+		"prefix": "!warning",
+		"body": [
+			"> [!WARNING]",
+			"> ${1:Critical content demanding immediate user attention due to potential risks.}",
+			"$0"
+		],
+		"description": "add [!WARNING] block"
+	},
+	"[!CAUTION] block": {
+		"prefix": "!caution",
+		"body": [
+			"> [!CAUTION]",
+			"> ${1:Negative potential consequences of an action.}",
+			"$0"
+		],
+		"description": "add [!CAUTION] block"
+	}
+}

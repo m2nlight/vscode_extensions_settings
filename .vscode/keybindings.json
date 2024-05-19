@@ -1,0 +1,120 @@
+// Place your key bindings in this file to override the defaults
+[
+    // {
+    //     "key": "ctrl+.",
+    //     "command": "-editor.action.quickFix",
+    //     "when": "editorHasCodeActionsProvider && textInputFocus && !editorReadonly"
+    // },
+    // {
+    //     "key": "alt+b",
+    //     "command": "-extension.toggleBool",
+    //     "when": "editorTextFocus"
+    // },
+    {
+        "key": "alt+enter",
+        "command": "editor.action.quickFix",
+        "when": "editorHasCodeActionsProvider && textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+5",
+        "command": "-coverage-gutters.toggleCoverage"
+    },
+    {
+        "key": "ctrl+shift+6",
+        "command": "-coverage-gutters.previewCoverageReport"
+    },
+    {
+        "key": "ctrl+shift+7",
+        "command": "-coverage-gutters.displayCoverage"
+    },
+    {
+        "key": "ctrl+shift+8",
+        "command": "-coverage-gutters.watchCoverageAndVisibleEditors"
+    },
+    {
+        "key": "ctrl+shift+9",
+        "command": "-coverage-gutters.removeWatch"
+    },
+    {
+        "key": "ctrl+shift+backspace",
+        "command": "-coverage-gutters.removeCoverage"
+    },
+    {
+        "key": "ctrl+shift+v",
+        "command": "-markdown.showPreview"
+    },
+    {
+        "key": "ctrl+shift+v",
+        "command": "-markdown-preview-enhanced.openPreview"
+    },
+    {
+        "key": "ctrl+shift+v",
+        "command": "-markdown.extension.closePreview"
+    },
+    {
+        "key": "ctrl+shift+v",
+        "command": "-quicktype.pasteJSONAsTypesAndSerialization"
+    },
+    {
+        "key": "ctrl+shift+alt+v",
+        "command": "-quicktype.pasteJSONAsTypes"
+    },
+    {
+        "key": "ctrl+shift+s",
+        "command": "-markdown-preview-enhanced.syncPreview"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "workbench.action.toggleSidebarVisibility",
+        "when": "vim.active"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "workbench.files.action.focusFilesExplorer",
+        "when": "editorTextFocus && vim.active"
+    },
+    {
+        "key": "a",
+        "command": "explorer.newFile",
+        "when": "filesExplorerFocus && !inputFocus && vim.active"
+    },
+    {
+        "key": "r",
+        "command": "renameFile",
+        "when": "filesExplorerFocus && !inputFocus && vim.active"
+    },
+    {
+        "key": "c",
+        "command": "filesExplorer.copy",
+        "when": "filesExplorerFocus && !inputFocus && vim.active"
+    },
+    {
+        "key": "p",
+        "command": "filesExplorer.paste",
+        "when": "filesExplorerFocus && !inputFocus && vim.active"
+    },
+    {
+        "key": "d",
+        "command": "deleteFile",
+        "when": "filesExplorerFocus && !inputFocus && vim.active"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "-editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+d",
+        "command": "editor.action.addSelectionToNextFindMatch",
+        "when": "isMac"
+    },
+    {
+        "key": "alt+d",
+        "command": "editor.action.addSelectionToNextFindMatch",
+        "when": "!isMac"
+    },
+    {
+        "key": "ctrl+shift+backspace",
+        "command": "workbench.action.navigateToLastEditLocation"
+    }
+]
