@@ -2,7 +2,6 @@
     "recommendations": [
         //// --- UI
         "akamud.vscode-theme-onedark",
-        "akamud.vscode-theme-onelight",
         "pkief.material-icon-theme",
 
         //// --- status bar
