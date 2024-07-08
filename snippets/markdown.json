@@ -48,6 +48,13 @@
 		],
 		"description": "add html tags: video"
 	},
+	"Add html tags: img": {
+		"prefix": "img-tag",
+		"body": [
+			"< img width='${1:auto}' alt='${2}' src='${3:img_url}' />$0"
+		],
+		"description": "add html tags: img"
+	},
 	"[!NOTE] block": {
 		"prefix": "!note",
 		"body": [
