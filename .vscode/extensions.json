@@ -10,7 +10,6 @@
 
         //// --- Chinese Language
         // "ms-ceintl.vscode-language-pack-zh-hans",
-        // "w88975.code-translate",
 
         //// --- markdown
         "foam.foam-vscode",
@@ -21,8 +20,9 @@
         "yzhang.markdown-all-in-one",
 
         //// --- git
-        "donjayamanne.githistory",
-        "waderyan.gitblame",
+        // "donjayamanne.githistory",
+        "mhutchie.git-graph",
+        "huizhou.githd",
 
         //// --- code
         // "formulahendry.code-runner",
@@ -56,8 +56,8 @@
 
         //// --- Rust
         // "tauri-apps.tauri-vscode",
+        // "fill-labs.dependi",
         "rust-lang.rust-analyzer",
-        "serayuzgur.crates",
         "tamasfe.even-better-toml",
         "vadimcn.vscode-lldb",
 
@@ -67,6 +67,7 @@
         // "jeff-hykin.better-cpp-syntax",
 
         //// --- C#
+        // "avaloniateam.vscode-avalonia",
         "adrianwilczynski.add-reference",
         "adrianwilczynski.namespace",
         "aliasadidev.nugetpackagemanagergui",

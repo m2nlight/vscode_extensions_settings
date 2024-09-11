@@ -1,25 +1,19 @@
 {
     "security.workspace.trust.enabled": false,
-    "window.restoreWindows": "none",
-    "update.showReleaseNotes": false,
     "explorer.excludeGitIgnore": false,
     "files.autoGuessEncoding": true,
+    "window.restoreWindows": "none",
+    "update.showReleaseNotes": false,
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
     "editor.linkedEditing": true,
     // "editor.fontSize": 16,
-    "editor.fontLigatures": true,
     "editor.fontFamily": "'Cascadia Code', 'Jetbrains Mono', 'Fira Code Retina', Menlo, Monaco, Consolas, 'Courier New', monospace",
-    "terminal.integrated.fontFamily": "'Cascadia Mono NF', 'Jetbrains Mono NL', 'MesloLGS NF'",
-    "terminal.integrated.copyOnSelection": true,
-    "terminal.integrated.defaultProfile.windows": "Git Bash",
-    "terminal.integrated.defaultProfile.osx": "zsh",
-    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.fontFamily": "'Cascadia Mono NF', 'MesloLGS NF', 'Jetbrains Mono NL'",
     "window.autoDetectColorScheme": true,
     "workbench.preferredDarkColorTheme": "Atom One Dark",
     "workbench.preferredLightColorTheme": "Default Light Modern",
     "workbench.colorTheme": "Default Light Modern",
-    "workbench.iconTheme": "material-icon-theme",
     "javascript.preferences.renameMatchingJsxTags": true,
     "typescript.preferences.renameMatchingJsxTags": true,
     "debug.allowBreakpointsEverywhere": true,
@@ -38,6 +32,13 @@
             "other": "on"
         }
     },
+    "workbench.iconTheme": "material-icon-theme",
+    "csv-edit.readOption_hasHeader": "true",
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "trailing-spaces.trimOnSave": true,
     "markdown-preview-enhanced.enableExtendedTableSyntax": false,
     "markdown-preview-enhanced.enableTypographer": true,
     "markdown-preview-enhanced.enableHTML5Embed": true,
@@ -54,45 +55,11 @@
     "rest-client.enableTelemetry": false,
     "dotnetAcquisitionExtension.enableTelemetry": false,
     "dotnetAcquisitionExtension.installTimeoutValue": 0,
-    "dotnetAcquisitionExtension.existingDotnetPath": [
-        {
-            "extensionId": "ms-dotnettools.csharp",
-            "path": "C:\\Program Files\\dotnet\\dotnet.exe"
-            // "path": "/usr/local/share/dotnet/dotnet"
-        },
-        {
-            "extensionId": "ms-dotnettools.csdevkit",
-            "path": "C:\\Program Files\\dotnet\\dotnet.exe"
-            // "path": "/usr/local/share/dotnet/dotnet"
-        },
-        {
-            "extensionId": "visualstudiotoolsforunity.vstuc",
-            "path": "C:\\Program Files\\dotnet\\dotnet.exe"
-            // "path": "/usr/local/share/dotnet/dotnet"
-        },
-        {
-            "extensionId": "msazurermtools.azurerm-vscode-tools",
-            "path": "C:\\Program Files\\dotnet\\dotnet.exe"
-            // "path": "/usr/local/share/dotnet/dotnet"
-        },
-        {
-            "extensionId": "ms-dotnettools.vscode-dotnet-runtime",
-            "path": "C:\\Program Files\\dotnet\\dotnet.exe"
-            // "path": "/usr/local/share/dotnet/dotnet"
-        },
-        {
-            "extensionId": "ms-dotnettools.vscodeintellicode-csharp",
-            "path": "C:\\Program Files\\dotnet\\dotnet.exe"
-            // "path": "/usr/local/share/dotnet/dotnet"
-        },
-        {
-            "extensionId": "tintoy.msbuild-project-tools",
-            "path": "C:\\Program Files\\dotnet\\dotnet.exe"
-            // "path": "/usr/local/share/dotnet/dotnet"
-        },
-    ],
+    "dotnetAcquisitionExtension.sharedExistingDotnetPath": "C:\\Program Files\\dotnet\\dotnet.exe",
+    //"dotnetAcquisitionExtension.sharedExistingDotnetPath": "/usr/local/share/dotnet/dotnet",
     "dotnet.dotnetPath": "C:\\Program Files\\dotnet",
     // "dotnet.dotnetPath": "/usr/local/share/dotnet",
+    "dotnet.preferCSharpExtension": true,
     "csharp.inlayHints.enableInlayHintsForImplicitObjectCreation": true,
     "csharp.inlayHints.enableInlayHintsForImplicitVariableTypes": true,
     "csharp.inlayHints.enableInlayHintsForLambdaParameterTypes": true,
@@ -119,11 +86,10 @@
             "background": "#00ff0080"
         }
     },
-    "csv-edit.readOption_hasHeader": "true",
+    "numberedBookmarks.navigateThroughAllFiles": "replace",
     "clock.dateFormat": "H:MM",
     "easy-codesnap.showWindowControls": false,
-    "numberedBookmarks.navigateThroughAllFiles": "replace",
-    //// VIM
+    "hexeditor.showOpenFileButton": true,
     // "editor.lineNumbers": "relative",
     // "vim.disableExtension": false,
     // "vim.easymotion": true,
