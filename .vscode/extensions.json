@@ -1,8 +1,9 @@
 {
     "recommendations": [
         //// --- UI
-        "akamud.vscode-theme-onedark",
         "pkief.material-icon-theme",
+        "akamud.vscode-theme-onedark",
+        "akamud.vscode-theme-onelight",
 
         //// --- status bar
         "compulim.vscode-clock",
@@ -45,8 +46,8 @@
         //// --- string
         // "marclipovsky.string-manipulation",
         // "chouzz.vscode-better-align",
-        "ciiqr.encode",
-        "gurayyarar.dummytextgenerator",
+        // "ciiqr.encode",
+        // "gurayyarar.dummytextgenerator",
         "nhoizey.gremlins",
 
         //// --- XML
