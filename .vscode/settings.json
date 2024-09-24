@@ -1,11 +1,12 @@
 {
     "security.workspace.trust.enabled": false,
+    "update.showReleaseNotes": false,
+    "window.restoreWindows": "none",
     "explorer.excludeGitIgnore": false,
     "files.autoGuessEncoding": true,
-    "window.restoreWindows": "none",
-    "update.showReleaseNotes": false,
-    "editor.formatOnSave": true,
     "editor.formatOnType": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modificationsIfAvailable",
     "editor.linkedEditing": true,
     // "editor.fontSize": 16,
     "editor.fontFamily": "'Cascadia Code', 'Jetbrains Mono', 'Fira Code Retina', Menlo, Monaco, Consolas, 'Courier New', monospace",
@@ -30,7 +31,8 @@
             "comments": "on",
             "strings": "on",
             "other": "on"
-        }
+        },
+        "editor.formatOnSaveMode": "file"
     },
     "workbench.iconTheme": "material-icon-theme",
     "csv-edit.readOption_hasHeader": "true",
@@ -50,9 +52,9 @@
     // "markdown-preview-enhanced.puppeteerWaitForTimeout": 5000,
     // "markdown-preview-enhanced.chromePath": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
     "telemetry.telemetryLevel": "off",
+    "rest-client.enableTelemetry": false,
     "dotnet.enableTelemetry": false,
     "dotnet-test-explorer.enableTelemetry": false,
-    "rest-client.enableTelemetry": false,
     "dotnetAcquisitionExtension.enableTelemetry": false,
     "dotnetAcquisitionExtension.installTimeoutValue": 0,
     "dotnetAcquisitionExtension.sharedExistingDotnetPath": "C:\\Program Files\\dotnet\\dotnet.exe",
@@ -74,8 +76,6 @@
     "dotnet.inlayHints.suppressInlayHintsForParametersThatMatchMethodIntent": true,
     "coverage-gutters.showLineCoverage": true,
     "coverage-gutters.showRulerCoverage": true,
-    "clipboard-manager.preview": true,
-    "clipboard-manager.snippet.enabled": false,
     "todo-tree.highlights.useColourScheme": true,
     "todo-tree.regex.regexCaseSensitive": false,
     "todo-tree.highlights.customHighlight": {
@@ -87,9 +87,11 @@
         }
     },
     "numberedBookmarks.navigateThroughAllFiles": "replace",
-    "clock.dateFormat": "H:MM",
     "easy-codesnap.showWindowControls": false,
     "hexeditor.showOpenFileButton": true,
+    "clipboard-manager.preview": true,
+    "clipboard-manager.snippet.enabled": false,
+    "clock.dateFormat": "H:MM",
     // "editor.lineNumbers": "relative",
     // "vim.disableExtension": false,
     // "vim.easymotion": true,
