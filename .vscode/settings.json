@@ -231,8 +231,8 @@
     // ],
     // "vim.leader": "<space>",
     // "vim.handleKeys": {
-    //     "<C-a>": true,
-    //     "<C-x>": true,
+    //     "<C-a>": false,
+    //     "<C-x>": false,
     //     "<C-f>": true,
     //     "<C-c>": false,
     //     "<C-s>": false,
