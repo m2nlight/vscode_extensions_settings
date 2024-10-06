@@ -32,7 +32,8 @@
             "strings": "on",
             "other": "on"
         },
-        "editor.formatOnSaveMode": "file"
+        "editor.formatOnSaveMode": "file",
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "workbench.iconTheme": "material-icon-theme",
     "csv-edit.readOption_hasHeader": "true",
