@@ -20,7 +20,6 @@
         "kukushi.pasteurl",
         "takumii.markdowntable",
         "foam.foam-vscode",
-        "esbenp.prettier-vscode",
 
         //// --- git
         // "donjayamanne.githistory",
@@ -29,6 +28,8 @@
 
         //// --- code
         // "formulahendry.code-runner",
+        "dbankier.vscode-quick-select",
+        "pedrotavares.myzoom",
         "alefragnani.numbered-bookmarks",
         "alefragnani.project-manager",
         "arthurlobo.easy-codesnap",

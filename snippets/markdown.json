@@ -1,5 +1,4 @@
 {
-	// %appdata%\Code\User\snippets
 	"Add html tags: details": {
 		"prefix": "details-tag",
 		"body": [
@@ -92,5 +91,5 @@
 			"$0"
 		],
 		"description": "add [!CAUTION] block"
-	},
+	}
 }
