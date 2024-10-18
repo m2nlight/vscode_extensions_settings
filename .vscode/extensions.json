@@ -2,8 +2,9 @@
     "recommendations": [
         //// --- UI
         "pkief.material-icon-theme",
-        "akamud.vscode-theme-onedark",
-        "akamud.vscode-theme-onelight",
+        "zhuangtongfa.material-theme",
+        // "akamud.vscode-theme-onedark",
+        // "akamud.vscode-theme-onelight",
 
         //// --- status bar
         "compulim.vscode-clock",
@@ -51,7 +52,7 @@
         // "chouzz.vscode-better-align",
         // "ciiqr.encode",
         // "gurayyarar.dummytextgenerator",
-        "nhoizey.gremlins",
+        // "nhoizey.gremlins",
 
         //// --- XML
         "dotjoshjohnson.xml",
