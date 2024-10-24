@@ -14,7 +14,6 @@
     "window.autoDetectColorScheme": true,
     "workbench.preferredDarkColorTheme": "One Dark Pro",
     "workbench.preferredLightColorTheme": "Default Light Modern",
-    "workbench.colorTheme": "One Dark Pro",
     "javascript.preferences.renameMatchingJsxTags": true,
     "typescript.preferences.renameMatchingJsxTags": true,
     "debug.allowBreakpointsEverywhere": true,
@@ -78,14 +77,14 @@
     "coverage-gutters.showRulerCoverage": true,
     "todo-tree.highlights.useColourScheme": true,
     "todo-tree.regex.regexCaseSensitive": false,
-    "todo-tree.highlights.customHighlight": {
-        "[ ]": {
-            "background": "#ff000080"
-        },
-        "[x]": {
-            "background": "#00ff0080"
-        }
-    },
+    // "todo-tree.highlights.customHighlight": {
+    //     "[ ]": {
+    //         "background": "#ff000080"
+    //     },
+    //     "[x]": {
+    //         "background": "#00ff0080"
+    //     }
+    // },
     "numberedBookmarks.navigateThroughAllFiles": "replace",
     "easy-codesnap.showWindowControls": false,
     "hexeditor.showOpenFileButton": true,
