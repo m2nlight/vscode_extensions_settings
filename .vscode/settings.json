@@ -6,7 +6,7 @@
     "files.autoGuessEncoding": true,
     "editor.formatOnType": true,
     "editor.formatOnSave": true,
-    "editor.formatOnSaveMode": "modificationsIfAvailable",
+    "editor.formatOnSaveMode": "file",
     "editor.linkedEditing": true,
     // "editor.fontSize": 16,
     "editor.fontFamily": "'Cascadia Code', 'Jetbrains Mono', 'Fira Code Retina', Menlo, Monaco, Consolas, 'Courier New', monospace",
@@ -33,6 +33,9 @@
         },
         "editor.formatOnSaveMode": "file"
     },
+    // "[csharp]": {
+    //     "editor.defaultFormatter": "csharpier.csharpier-vscode"
+    // },
     "workbench.iconTheme": "material-icon-theme",
     "csv-edit.readOption_hasHeader": "true",
     "terminal.integrated.copyOnSelection": true,
@@ -77,14 +80,14 @@
     "coverage-gutters.showRulerCoverage": true,
     "todo-tree.highlights.useColourScheme": true,
     "todo-tree.regex.regexCaseSensitive": false,
-    // "todo-tree.highlights.customHighlight": {
-    //     "[ ]": {
-    //         "background": "#ff000080"
-    //     },
-    //     "[x]": {
-    //         "background": "#00ff0080"
-    //     }
-    // },
+    "todo-tree.highlights.customHighlight": {
+        "[ ]": {
+            "background": "#ff000080"
+        },
+        "[x]": {
+            "background": "#00ff0080"
+        }
+    },
     "numberedBookmarks.navigateThroughAllFiles": "replace",
     "easy-codesnap.showWindowControls": false,
     "hexeditor.showOpenFileButton": true,
