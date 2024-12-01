@@ -8,12 +8,17 @@
     "editor.formatOnSave": true,
     "editor.formatOnSaveMode": "file",
     "editor.linkedEditing": true,
-    // "editor.fontSize": 16,
-    "editor.fontFamily": "'Cascadia Code', 'Jetbrains Mono', 'Fira Code Retina', Menlo, Monaco, Consolas, 'Courier New', monospace",
-    "terminal.integrated.fontFamily": "'Cascadia Mono NF', 'MesloLGS NF', 'Jetbrains Mono NL'",
+    "editor.fontFamily": "'Cascadia Code', 'Jetbrains Mono', Menlo, Monaco, Consolas, 'Courier New', monospace",
+    "terminal.integrated.fontFamily": "'Cascadia Mono NF', 'Jetbrains Mono NL', 'MesloLGS NF'",
+    // "editor.fontSize": 13,
+    // "editor.lineHeight": 22,
+    // "editor.bracketPairColorization.enabled": false,
+    "editor.rulers": [
+        120
+    ],
     "window.autoDetectColorScheme": true,
-    "workbench.preferredDarkColorTheme": "One Dark Pro",
-    "workbench.preferredLightColorTheme": "Default Light Modern",
+    "workbench.preferredDarkColorTheme": "JetBrains Rider New UI Dark",
+    "workbench.preferredLightColorTheme": "JetBrains Rider New UI Lighter",
     "javascript.preferences.renameMatchingJsxTags": true,
     "typescript.preferences.renameMatchingJsxTags": true,
     "debug.allowBreakpointsEverywhere": true,
@@ -33,9 +38,9 @@
         },
         "editor.formatOnSaveMode": "file"
     },
-    // "[csharp]": {
-    //     "editor.defaultFormatter": "csharpier.csharpier-vscode"
-    // },
+    "[csharp]": {
+        "editor.defaultFormatter": "csharpier.csharpier-vscode"
+    },
     "workbench.iconTheme": "material-icon-theme",
     "csv-edit.readOption_hasHeader": "true",
     "terminal.integrated.copyOnSelection": true,

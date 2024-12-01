@@ -1,11 +1,12 @@
 {
     "recommendations": [
         //// --- UI ---
+        //// ICON
         "pkief.material-icon-theme",
-        "zhuangtongfa.material-theme",
-        "enkia.tokyo-night",
-        // "akamud.vscode-theme-onedark",
-        // "akamud.vscode-theme-onelight",
+        // "chadalen.vscode-jetbrains-icon-theme",
+        //// UI
+        "digimezzo.jetbrains-rider-new-ui-theme",
+        // "zhuangtongfa.material-theme",
         //// --- status bar ---
         "compulim.vscode-clock",
         "compulim.vscode-ipaddress",
@@ -25,8 +26,8 @@
         "huizhou.githd",
         //// --- code ---
         // "formulahendry.code-runner",
+        // "pedrotavares.myzoom",
         "dbankier.vscode-quick-select",
-        "pedrotavares.myzoom",
         "alefragnani.numbered-bookmarks",
         "alefragnani.project-manager",
         "arthurlobo.easy-codesnap",
@@ -65,7 +66,7 @@
         //// --- C# ---
         // "avaloniateam.vscode-avalonia",
         // "zxh404.vscode-proto3",
-        // "csharpier.csharpier-vscode",
+        "csharpier.csharpier-vscode",
         "adrianwilczynski.add-reference",
         "adrianwilczynski.namespace",
         "aliasadidev.nugetpackagemanagergui",
