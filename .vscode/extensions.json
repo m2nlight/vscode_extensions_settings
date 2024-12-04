@@ -3,15 +3,12 @@
         //// --- UI ---
         //// ICON
         "pkief.material-icon-theme",
-        // "chadalen.vscode-jetbrains-icon-theme",
         //// UI
-        "digimezzo.jetbrains-rider-new-ui-theme",
+        "sainnhe.everforest",
         // "zhuangtongfa.material-theme",
         //// --- status bar ---
-        "compulim.vscode-clock",
-        "compulim.vscode-ipaddress",
-        //// --- Chinese Language ---
-        // "ms-ceintl.vscode-language-pack-zh-hans",
+        // "compulim.vscode-clock",
+        // "compulim.vscode-ipaddress",
         //// --- markdown ---
         // "telesoho.vscode-markdown-paste-image",
         // "bierner.emojisense",
@@ -21,18 +18,20 @@
         "takumii.markdowntable",
         "foam.foam-vscode",
         //// --- git ---
-        // "donjayamanne.githistory",
-        "mhutchie.git-graph",
-        "huizhou.githd",
+        // "huizhou.githd",
+        // "mhutchie.git-graph",
+        "donjayamanne.githistory",
         //// --- code ---
         // "formulahendry.code-runner",
         // "pedrotavares.myzoom",
+        // "edgardmessias.clipboard-manager",
+        "letrieu.expand-region",
         "dbankier.vscode-quick-select",
+        "silesky.toggle-boolean",
         "alefragnani.numbered-bookmarks",
         "alefragnani.project-manager",
         "arthurlobo.easy-codesnap",
         "christian-kohler.path-intellisense",
-        "edgardmessias.clipboard-manager",
         "eriklynd.json-tools",
         "gruntfuggly.todo-tree",
         "humao.rest-client",
@@ -43,16 +42,19 @@
         "shardulm94.trailing-spaces",
         "streetsidesoftware.code-spell-checker",
         "usernamehw.errorlens",
+        "gurayyarar.dummytextgenerator",
         //// --- strings ---
         // "marclipovsky.string-manipulation",
         // "chouzz.vscode-better-align",
         // "ciiqr.encode",
-        // "gurayyarar.dummytextgenerator",
         // "nhoizey.gremlins",
-        //// --- XML ---
+        //// --- XML/HTML/CSS/JS/TS ---
         "dotjoshjohnson.xml",
         "formulahendry.auto-close-tag",
         "formulahendry.auto-rename-tag",
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
+        "richie5um2.vscode-sort-json",
         //// --- Rust ---
         // "tauri-apps.tauri-vscode",
         // "fill-labs.dependi",
@@ -93,5 +95,7 @@
         // "ms-vscode.remote-explorer",
         // "ms-vscode-remote.remote-ssh",
         // "ms-vscode-remote.remote-ssh-edit"
+        //// ---- VIM ----
+        //"vscodevim.vim",
     ]
 }

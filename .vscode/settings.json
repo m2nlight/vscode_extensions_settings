@@ -2,23 +2,48 @@
     "security.workspace.trust.enabled": false,
     "update.showReleaseNotes": false,
     "window.restoreWindows": "none",
+    "extensions.autoUpdate": "onlyEnabledExtensions",
+    // "extensions.ignoreRecommendations": true,
     "explorer.excludeGitIgnore": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
     "files.autoGuessEncoding": true,
     "editor.formatOnType": true,
     "editor.formatOnSave": true,
     "editor.formatOnSaveMode": "file",
+    "editor.codeActionsOnSave": {
+        "source.organizeLinkDefinitions": "always",
+        "source.organizeImports": "always",
+        "source.fixAll": "always",
+        "source.fixAll.sortJSON": "always",
+        "source.fixAll.eslint": "always",
+    },
     "editor.linkedEditing": true,
+    "editor.fontLigatures": true,
     "editor.fontFamily": "'Cascadia Code', 'Jetbrains Mono', Menlo, Monaco, Consolas, 'Courier New', monospace",
     "terminal.integrated.fontFamily": "'Cascadia Mono NF', 'Jetbrains Mono NL', 'MesloLGS NF'",
+    // "window.zoomLevel": 1,
     // "editor.fontSize": 13,
     // "editor.lineHeight": 22,
     // "editor.bracketPairColorization.enabled": false,
     "editor.rulers": [
         120
     ],
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorSurroundingLines": 5,
+    "editor.smoothScrolling": true,
+    "editor.stickyScroll.enabled": true,
+    "editor.inlineSuggest.enabled": true,
+    "editor.minimap.enabled": false,
+    "editor.suggest.insertMode": "replace",
     "window.autoDetectColorScheme": true,
-    "workbench.preferredDarkColorTheme": "JetBrains Rider New UI Dark",
-    "workbench.preferredLightColorTheme": "JetBrains Rider New UI Lighter",
+    "workbench.preferredDarkColorTheme": "Everforest Dark",
+    "workbench.preferredLightColorTheme": "Everforest Light",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "readme",
+    "zenMode.hideLineNumbers": false,
+    "zenMode.showTabs": "none",
+    "window.customTitleBarVisibility": "windowed",
     "javascript.preferences.renameMatchingJsxTags": true,
     "typescript.preferences.renameMatchingJsxTags": true,
     "debug.allowBreakpointsEverywhere": true,
@@ -38,10 +63,23 @@
         },
         "editor.formatOnSaveMode": "file"
     },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
     "[csharp]": {
         "editor.defaultFormatter": "csharpier.csharpier-vscode"
     },
-    "workbench.iconTheme": "material-icon-theme",
+    "typescript.preferences.importModuleSpecifier": "relative",
+    "typescript.updateImportsOnFileMove.enabled": "always",
     "csv-edit.readOption_hasHeader": "true",
     "terminal.integrated.copyOnSelection": true,
     "terminal.integrated.defaultProfile.windows": "Git Bash",
@@ -58,7 +96,7 @@
     "markdown-preview-enhanced.previewColorScheme": "editorColorScheme",
     // "markdown-preview-enhanced.puppeteerWaitForTimeout": 5000,
     // "markdown-preview-enhanced.chromePath": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
-    "telemetry.telemetryLevel": "off",
+    "telemetry.telemetryLevel": "all",
     "rest-client.enableTelemetry": false,
     "dotnet.enableTelemetry": false,
     "dotnet-test-explorer.enableTelemetry": false,
@@ -99,15 +137,41 @@
     "clipboard-manager.preview": true,
     "clipboard-manager.snippet.enabled": false,
     "clock.dateFormat": "H:MM",
+    "projectManager.sortList": "Recent",
+    "sortJSON.contextMenu": {
+        "sortJSON": false,
+        "sortJSONAlphaNum": false,
+        "sortJSONAlphaNumReverse": false,
+        "sortJSONKeyLength": false,
+        "sortJSONKeyLengthReverse": false,
+        "sortJSONReverse": false,
+        "sortJSONType": false,
+        "sortJSONTypeReverse": false,
+        "sortJSONValues": false,
+        "sortJSONValuesReverse": false
+    },
+    "sortJSON.orderOverride": [
+        "name",
+        "version",
+        "description"
+    ],
+    "sortJSON.orderUnderride": [
+        "dependencies",
+        "devDependencies"
+    ],
     // "editor.lineNumbers": "relative",
     // "vim.disableExtension": false,
     // "vim.easymotion": true,
+    // "vim.foldfix": true,
     // "vim.sneak": true,
     // "vim.camelCaseMotion.enable": true,
     // "vim.replaceWithRegister": true,
     // "vim.useSystemClipboard": true,
     // "vim.useCtrlKeys": true,
     // "vim.hlsearch": true,
+    // "vim.highlightedyank.color": "rgba(230, 97, 89, 0.7)",
+    // "vim.highlightedyank.enable": true,
+    // "vim.highlightedyank.textColor": "white",
     // "extensions.experimental.affinity": {
     //     "vscodevim.vim": 1
     // },
@@ -121,6 +185,19 @@
     //             "<Esc>"
     //         ]
     //     }
+    // ],
+    // "vim.visualModeKeyBindingsNonRecursive": [
+    //     {
+    //         "before": [
+    //             "<c-a>",
+    //         ],
+    //         "after": [
+    //             "g",
+    //             "g",
+    //             "V",
+    //             "G"
+    //         ]
+    //     },
     // ],
     // "vim.normalModeKeyBindingsNonRecursive": [
     //     {
@@ -166,6 +243,90 @@
     //         ],
     //         "commands": [
     //             "editor.action.startFindReplaceAction"
+    //         ]
+    //     },
+    //     {
+    //         "before": [
+    //             "<leader>",
+    //             "w"
+    //         ],
+    //         "commands": [
+    //             ":w!"
+    //         ]
+    //     },
+    //     {
+    //         "before": [
+    //             "<leader>",
+    //             "q"
+    //         ],
+    //         "commands": [
+    //             ":q!"
+    //         ]
+    //     },
+    //     {
+    //         "before": [
+    //             "<leader>",
+    //             "x"
+    //         ],
+    //         "commands": [
+    //             ":x!"
+    //         ]
+    //     },
+    //     {
+    //         "before": [
+    //             "<c-a>",
+    //         ],
+    //         "after": [
+    //             "g",
+    //             "g",
+    //             "V",
+    //             "G"
+    //         ]
+    //     },
+    //     {
+    //         "before": [
+    //             "<leader>",
+    //             "k"
+    //         ],
+    //         "commands": [
+    //             "editor.action.showHover"
+    //         ]
+    //     },
+    //     {
+    //         "before": [
+    //             "]",
+    //             "d"
+    //         ],
+    //         "commands": [
+    //             "editor.action.marker.nextInFiles"
+    //         ]
+    //     },
+    //     {
+    //         "before": [
+    //             "[",
+    //             "d"
+    //         ],
+    //         "commands": [
+    //             "editor.action.marker.prevInFiles"
+    //         ]
+    //     },
+    //     {
+    //         "before": [
+    //             "<leader>",
+    //             "c",
+    //             "a"
+    //         ],
+    //         "commands": [
+    //             "editor.action.quickFix"
+    //         ]
+    //     },
+    //     {
+    //         "before": [
+    //             "<leader>",
+    //             "i"
+    //         ],
+    //         "commands": [
+    //             "extension.toggleBool"
     //         ]
     //     }
     // ],
@@ -238,10 +399,11 @@
     // ],
     // "vim.leader": "<space>",
     // "vim.handleKeys": {
-    //     "<C-a>": false,
+    //     "<C-a>": true,
     //     "<C-x>": false,
-    //     "<C-f>": true,
+    //     "<C-f>": false,
     //     "<C-c>": false,
+    //     "<C-d>": false,
     //     "<C-s>": false,
     // },
 }
