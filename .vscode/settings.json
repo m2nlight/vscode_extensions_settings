@@ -38,7 +38,7 @@
     "editor.suggest.insertMode": "replace",
     "window.autoDetectColorScheme": true,
     "workbench.preferredDarkColorTheme": "Everforest Dark",
-    "workbench.preferredLightColorTheme": "Everforest Light",
+    "workbench.preferredLightColorTheme": "Default Light Modern",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.startupEditor": "readme",
     "zenMode.hideLineNumbers": false,
@@ -61,6 +61,7 @@
             "strings": "on",
             "other": "on"
         },
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one",
         "editor.formatOnSaveMode": "file"
     },
     "[javascript]": {
