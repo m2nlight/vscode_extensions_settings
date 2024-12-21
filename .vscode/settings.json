@@ -4,6 +4,7 @@
     "window.restoreWindows": "none",
     "extensions.autoUpdate": "onlyEnabledExtensions",
     // "extensions.ignoreRecommendations": true,
+    "chat.commandCenter.enabled": false,
     "explorer.excludeGitIgnore": false,
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
@@ -20,8 +21,8 @@
     },
     "editor.linkedEditing": true,
     "editor.fontLigatures": true,
-    "editor.fontFamily": "'Cascadia Code', 'Jetbrains Mono', Menlo, Monaco, Consolas, 'Courier New', monospace",
-    "terminal.integrated.fontFamily": "'Cascadia Mono NF', 'Jetbrains Mono NL', 'MesloLGS NF'",
+    "editor.fontFamily": "'Cascadia Code', 'Jetbrains Mono', 'LXGW WenKai Mono', Menlo, Monaco, Consolas, 'Courier New', monospace",
+    "terminal.integrated.fontFamily": "'Cascadia Mono NF', 'Jetbrains Mono NL', 'LXGW WenKai Mono', 'MesloLGS NF'",
     // "window.zoomLevel": 1,
     // "editor.fontSize": 13,
     // "editor.lineHeight": 22,
@@ -407,4 +408,14 @@
     //     "<C-d>": false,
     //     "<C-s>": false,
     // },
+    //// MacOS
+    // "vim.autoSwitchInputMethod.enable": true,
+    // "vim.autoSwitchInputMethod.defaultIM": "com.apple.keylayout.ABC",
+    // "vim.autoSwitchInputMethod.obtainIMCmd": "/usr/local/bin/im-select",
+    // "vim.autoSwitchInputMethod.switchIMCmd": "/usr/local/bin/im-select {im}"
+    //// Windows
+    // "vim.autoSwitchInputMethod.enable": true,
+    // "vim.autoSwitchInputMethod.defaultIM": "0",
+    // "vim.autoSwitchInputMethod.obtainIMCmd": "D:\\Tools\\im-select.exe",
+    // "vim.autoSwitchInputMethod.switchIMCmd": "D:\\Tools\\im-select.exe {im}",
 }
