@@ -19,3 +19,13 @@
 3. Press Ctrl/Cmd+Shift+P, Open User Settings (JSON), then copy .vscode/settings.json content to your settings.json, and save it.
 4. Press Ctrl/Cmd+Shift+P, Open Keyboard Shortcuts (JSON), then copy .vscode/keybindings.json content to your keybindings.json, and save it.
 5. Copy file from snippets to %appdata%\Code\User\snippets or Press Ctrl/Cmd+Shift+P, Snippets: Configure User Snippets to custom.
+
+## Markdown Preview Enhanced FontFamily
+
+Edit `~/.crossnote/style.less` or `%USERPROFILE%\.crossnote\style.less` file and add the following code:
+
+```css
+.markdown-preview.markdown-preview {
+  font-family: 'Cascadia Code', 'Jetbrains Mono', Menlo, Monaco, Consolas, 'Courier New', 'LXGW WenKai Mono', monospace;
+}
+```
