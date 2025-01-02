@@ -415,7 +415,7 @@
     // "vim.autoSwitchInputMethod.switchIMCmd": "/usr/local/bin/im-select {im}"
     //// Windows
     // "vim.autoSwitchInputMethod.enable": true,
-    // "vim.autoSwitchInputMethod.defaultIM": "0",
-    // "vim.autoSwitchInputMethod.obtainIMCmd": "D:\\Tools\\im-select.exe",
-    // "vim.autoSwitchInputMethod.switchIMCmd": "D:\\Tools\\im-select.exe {im}",
+    // "vim.autoSwitchInputMethod.defaultIM": "1033",
+    // "vim.autoSwitchInputMethod.obtainIMCmd": "D:\\Tools\\mini\\im-select.exe",
+    // "vim.autoSwitchInputMethod.switchIMCmd": "D:\\Tools\\mini\\im-select.exe {im}",
 }
