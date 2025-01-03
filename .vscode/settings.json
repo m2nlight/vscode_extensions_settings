@@ -26,6 +26,7 @@
     // "window.zoomLevel": 1,
     // "editor.fontSize": 13,
     // "editor.lineHeight": 22,
+    // "editor.fontWeight": 500,
     // "editor.bracketPairColorization.enabled": false,
     "editor.rulers": [
         120
