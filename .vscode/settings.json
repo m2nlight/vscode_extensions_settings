@@ -21,12 +21,12 @@
     },
     "editor.linkedEditing": true,
     "editor.fontLigatures": true,
-    "editor.fontFamily": "'Cascadia Code', 'Jetbrains Mono', Menlo, Monaco, Consolas, 'Courier New', 'LXGW WenKai Mono', monospace",
-    "terminal.integrated.fontFamily": "'Cascadia Mono NF', 'Jetbrains Mono NL', 'MesloLGS NF', 'LXGW WenKai Mono'",
+    "editor.fontFamily": "'Cascadia Code', 'Jetbrains Mono', Menlo, Monaco, Consolas, 'Courier New', 'LXGW WenKai Mono', 'WenJin Mincho Plane 3', 'WenJin Mincho Plane 2', 'WenJin Mincho Plane 0', monospace",
+    "terminal.integrated.fontFamily": "'Cascadia Mono NF', 'Jetbrains Mono NL', 'MesloLGS NF', 'LXGW WenKai Mono', 'WenJin Mincho Plane 3', 'WenJin Mincho Plane 2', 'WenJin Mincho Plane 0'",
     // "window.zoomLevel": 1,
     // "editor.fontSize": 13,
     // "editor.lineHeight": 22,
-    // "editor.fontWeight": 500,
+    // "editor.fontWeight": "500",
     // "editor.bracketPairColorization.enabled": false,
     "editor.rulers": [
         120
