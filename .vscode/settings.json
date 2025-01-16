@@ -166,7 +166,7 @@
     // "vim.disableExtension": false,
     // "vim.easymotion": true,
     // "vim.foldfix": true,
-    // "vim.sneak": true,
+    // "vim.sneak": false,
     // "vim.camelCaseMotion.enable": true,
     // "vim.replaceWithRegister": true,
     // "vim.useSystemClipboard": true,
