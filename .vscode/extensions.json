@@ -12,8 +12,11 @@
         //// --- markdown ---
         // "telesoho.vscode-markdown-paste-image",
         // "bierner.emojisense",
-        "shd101wyy.markdown-preview-enhanced",
         "yzhang.markdown-all-in-one",
+        "yzane.markdown-pdf",
+        "bierner.markdown-emoji",
+        "bierner.markdown-footnotes",
+        "bierner.markdown-mermaid",
         "kukushi.pasteurl",
         "takumii.markdowntable",
         "foam.foam-vscode",
