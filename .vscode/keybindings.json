@@ -122,5 +122,20 @@
         "key": "capslock capslock",
         "command": "extension.vim_escape",
         "when": "editorTextFocus && vim.active && vim.mode == 'Insert'"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "-editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+d",
+        "command": "editor.action.addSelectionToNextFindMatch",
+        "when": "isMac"
+    },
+    {
+        "key": "alt+d",
+        "command": "editor.action.addSelectionToNextFindMatch",
+        "when": "!isMac"
     }
 ]
