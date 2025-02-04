@@ -211,6 +211,24 @@
                 "G"
             ]
         },
+        {
+            "before": [
+                "<Space>",
+                "x"
+            ],
+            "after": [
+                "<C-x>"
+            ]
+        },
+        {
+            "before": [
+                "<Space>",
+                "a"
+            ],
+            "after": [
+                "<C-a>"
+            ]
+        }
     ],
     "vim.normalModeKeyBindingsNonRecursive": [
         {
@@ -340,6 +358,24 @@
             ],
             "commands": [
                 "extension.toggleBool"
+            ]
+        },
+        {
+            "before": [
+                "<Space>",
+                "x"
+            ],
+            "after": [
+                "<C-x>"
+            ]
+        },
+        {
+            "before": [
+                "<Space>",
+                "a"
+            ],
+            "after": [
+                "<C-a>"
             ]
         }
     ],
