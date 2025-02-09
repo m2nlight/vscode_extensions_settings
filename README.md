@@ -20,10 +20,12 @@
 4. Press Ctrl/Cmd+Shift+P, Open Keyboard Shortcuts (JSON), then copy .vscode/keybindings.json content to your keybindings.json, and save it.
 5. Copy file from snippets to %appdata%\Code\User\snippets or Press Ctrl/Cmd+Shift+P, Snippets: Configure User Snippets to custom.
 
-### markdown-pdf.executablePath
+## Markdown Preview Enhanced FontFamily
 
-If you want to use your own Chromium, you can set the path to the Chromium executable file.
+Edit `~/.crossnote/style.less` or `%USERPROFILE%\.crossnote\style.less` file and add the following code:
 
-```json
-"markdown-pdf.executablePath": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+```css
+.markdown-preview.markdown-preview {
+  font-family: 'Jetbrains Mono', 'Cascadia Code', Menlo, Monaco, Consolas, 'Courier New', 'LXGW WenKai Mono', 'WenJin Mincho Plane 3', 'WenJin Mincho Plane 2', 'WenJin Mincho Plane 0', monospace;
+}
 ```
