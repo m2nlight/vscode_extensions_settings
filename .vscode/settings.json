@@ -187,16 +187,6 @@
             "after": [
                 "<Esc>"
             ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "g",
-                "r"
-            ],
-            "commands": [
-                "git.revertSelectedRanges"
-            ]
         }
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
@@ -213,7 +203,7 @@
         },
         {
             "before": [
-                "<Space>",
+                "<leader>",
                 "x"
             ],
             "after": [
@@ -222,11 +212,21 @@
         },
         {
             "before": [
-                "<Space>",
+                "<leader>",
                 "a"
             ],
             "after": [
                 "<C-a>"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "g",
+                "r"
+            ],
+            "commands": [
+                "git.revertSelectedRanges"
             ]
         }
     ],
@@ -362,7 +362,7 @@
         },
         {
             "before": [
-                "<Space>",
+                "<leader>",
                 "x"
             ],
             "after": [
@@ -371,7 +371,7 @@
         },
         {
             "before": [
-                "<Space>",
+                "<leader>",
                 "a"
             ],
             "after": [
@@ -588,7 +588,7 @@
             ]
         }
     ],
-    "vim.leader": "<space>",
+    "vim.leader": "<Space>",
     "vim.handleKeys": {
         "<C-a>": true,
         "<C-x>": false,
