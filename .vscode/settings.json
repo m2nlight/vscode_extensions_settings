@@ -192,6 +192,15 @@
     "vim.visualModeKeyBindingsNonRecursive": [
         {
             "before": [
+                "Y"
+            ],
+            "after": [
+                "$",
+                "y",
+            ]
+        },
+        {
+            "before": [
                 "<c-a>",
             ],
             "after": [
@@ -230,7 +239,61 @@
             ]
         }
     ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [
+                "<leader>",
+                "/"
+            ],
+            "commands": [
+                "editor.action.commentLine"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "\\"
+            ],
+            "commands": [
+                "editor.action.blockComment"
+            ]
+        },
+        {
+            "before": [
+                ">"
+            ],
+            "commands": [
+                "editor.action.indentLines"
+            ]
+        },
+        {
+            "before": [
+                "<"
+            ],
+            "commands": [
+                "editor.action.outdentLines"
+            ]
+        }
+    ],
     "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "Y"
+            ],
+            "after": [
+                "y",
+                "$"
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "commands": [
+                "lineBreakInsert"
+            ],
+            "silent": true
+        },
         {
             "before": [
                 "<leader>",
@@ -247,6 +310,33 @@
             ],
             "commands": [
                 ":nohl"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "e"
+            ],
+            "commands": [
+                "workbench.files.action.focusFilesExplorer"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "p"
+            ],
+            "commands": [
+                "workbench.action.pinEditor"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "P"
+            ],
+            "commands": [
+                "workbench.action.unpinEditor"
             ]
         },
         {
@@ -354,10 +444,10 @@
         {
             "before": [
                 "<leader>",
-                "i"
+                "-"
             ],
             "commands": [
-                "extension.toggleBool"
+                "extension.toggleBool",
             ]
         },
         {
@@ -485,6 +575,24 @@
         {
             "before": [
                 "<leader>",
+                "u"
+            ],
+            "commands": [
+                "editor.action.goToReferences"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "i"
+            ],
+            "commands": [
+                "editor.action.goToImplementation"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
                 "g",
                 "p"
             ],
@@ -549,42 +657,6 @@
             ],
             "commands": [
                 "editor.action.blockComment"
-            ]
-        }
-    ],
-    "vim.visualModeKeyBindings": [
-        {
-            "before": [
-                "<leader>",
-                "/"
-            ],
-            "commands": [
-                "editor.action.commentLine"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "\\"
-            ],
-            "commands": [
-                "editor.action.blockComment"
-            ]
-        },
-        {
-            "before": [
-                ">"
-            ],
-            "commands": [
-                "editor.action.indentLines"
-            ]
-        },
-        {
-            "before": [
-                "<"
-            ],
-            "commands": [
-                "editor.action.outdentLines"
             ]
         }
     ],
