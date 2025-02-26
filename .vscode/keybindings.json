@@ -137,5 +137,9 @@
         "key": "alt+d",
         "command": "editor.action.addSelectionToNextFindMatch",
         "when": "!isMac"
+    },
+    {
+        "key": "ctrl+shift+backspace",
+        "command": "workbench.action.navigateToLastEditLocation"
     }
 ]

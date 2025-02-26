@@ -25,7 +25,7 @@
     "terminal.integrated.fontFamily": "'Jetbrains Mono NL Medium', 'Cascadia Mono NF', 'MesloLGS NF', 'LXGW WenKai Mono', 'WenJin Mincho Plane 3', 'WenJin Mincho Plane 2', 'WenJin Mincho Plane 0'",
     // "window.zoomLevel": 1,
     // "editor.fontSize": 14,
-    "editor.lineHeight": 1.5,
+    // "editor.lineHeight": 1.5,
     // "editor.fontWeight": "500",
     // "editor.bracketPairColorization.enabled": false,
     "editor.rulers": [
@@ -419,7 +419,7 @@
                 "d"
             ],
             "commands": [
-                "editor.action.marker.nextInFiles"
+                "editor.action.marker.next"
             ]
         },
         {
@@ -428,7 +428,43 @@
                 "d"
             ],
             "commands": [
+                "editor.action.marker.prev"
+            ]
+        },
+        {
+            "before": [
+                "]",
+                "e"
+            ],
+            "commands": [
+                "editor.action.marker.nextInFiles"
+            ]
+        },
+        {
+            "before": [
+                "[",
+                "e"
+            ],
+            "commands": [
                 "editor.action.marker.prevInFiles"
+            ]
+        },
+        {
+            "before": [
+                "]",
+                "f"
+            ],
+            "commands": [
+                "editor.gotoNextFold"
+            ]
+        },
+        {
+            "before": [
+                "[",
+                "f"
+            ],
+            "commands": [
+                "editor.gotoNextFold"
             ]
         },
         {
@@ -466,6 +502,24 @@
             ],
             "after": [
                 "<C-a>"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                ","
+            ],
+            "commands": [
+                "workbench.action.quickOpen"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "."
+            ],
+            "commands": [
+                "workbench.action.quickTextSearch"
             ]
         },
         {
