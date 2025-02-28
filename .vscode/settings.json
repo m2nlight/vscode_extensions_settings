@@ -524,6 +524,14 @@
         },
         {
             "before": [
+                "<c-p>"
+            ],
+            "commands": [
+                "workbench.action.quickOpen"
+            ]
+        },
+        {
+            "before": [
                 "<leader>",
                 "<leader>"
             ],
