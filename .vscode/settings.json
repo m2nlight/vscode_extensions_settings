@@ -2,13 +2,13 @@
     "security.workspace.trust.enabled": false,
     "update.showReleaseNotes": false,
     "window.restoreWindows": "none",
-    "extensions.autoUpdate": "onlyEnabledExtensions",
+    // "extensions.autoUpdate": "onlyEnabledExtensions",
     // "extensions.ignoreRecommendations": true,
     "chat.commandCenter.enabled": false,
+    "files.autoGuessEncoding": true,
     "explorer.excludeGitIgnore": false,
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
-    "files.autoGuessEncoding": true,
     "editor.formatOnType": true,
     "editor.formatOnSave": true,
     "editor.formatOnSaveMode": "file",
@@ -319,6 +319,15 @@
             ],
             "commands": [
                 "workbench.files.action.focusFilesExplorer"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "o"
+            ],
+            "commands": [
+                "revealFileInOS"
             ]
         },
         {
