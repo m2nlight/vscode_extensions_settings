@@ -648,7 +648,7 @@
         {
             "before": [
                 "<leader>",
-                "s"
+                "t"
             ],
             "commands": [
                 "workbench.action.showAllSymbols"
