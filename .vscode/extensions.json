@@ -3,9 +3,12 @@
         //// --- UI ---
         //// ICON
         "pkief.material-icon-theme",
+        "catppuccin.catppuccin-vsc-icons"
         //// UI
         "sainnhe.everforest",
-        // "zhuangtongfa.material-theme",
+        "zhuangtongfa.material-theme",
+        "catppuccin.catppuccin-vsc"
+        "enkia.tokyo-night",
         //// --- status bar ---
         // "compulim.vscode-clock",
         // "compulim.vscode-ipaddress",
@@ -97,5 +100,6 @@
         // "ms-vscode-remote.remote-ssh-edit"
         //// ---- VIM ----
         //"vscodevim.vim",
+        //"vspacecode.vspacecode",
     ]
 }
