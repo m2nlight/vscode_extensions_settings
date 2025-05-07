@@ -200,15 +200,17 @@
             ],
             "after": [
                 "$",
-                "y",
+                "y"
             ]
         },
         {
             "before": [
-                "-"
+                "<leader>",
+                "k",
+                "i"
             ],
             "commands": [
-                "extension.toggleBool",
+                "extension.toggleBool"
             ]
         },
         {
@@ -216,7 +218,7 @@
                 "+"
             ],
             "commands": [
-                "expand_region",
+                "expand_region"
             ]
         },
         {
@@ -224,29 +226,9 @@
                 "_"
             ],
             "commands": [
-                "undo_expand_region",
+                "undo_expand_region"
             ]
-        },
-        {
-            "before": [
-                "<space>"
-            ],
-            "commands": [
-                "vspacecode.space"
-            ]
-        },
-        {
-            "before": [
-                ","
-            ],
-            "commands": [
-                "vspacecode.space",
-                {
-                    "command": "whichkey.triggerKey",
-                    "args": "m"
-                }
-            ]
-        },
+        }
     ],
     "vim.normalModeKeyBindingsNonRecursive": [
         {
@@ -304,8 +286,17 @@
         },
         {
             "before": [
-                "<leader>",
+                "g",
                 "i"
+            ],
+            "commands": [
+                "editor.action.goToImplementation"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "I"
             ],
             "commands": [
                 "editor.action.goToImplementation"
@@ -329,7 +320,7 @@
             ],
             "after": [
                 "<c-w>",
-                "v",
+                "v"
             ]
         },
         {
@@ -339,7 +330,7 @@
             ],
             "after": [
                 "<c-w>",
-                "s",
+                "s"
             ]
         },
         {
@@ -411,6 +402,24 @@
         {
             "before": [
                 "]",
+                "w"
+            ],
+            "commands": [
+                "editor.action.marker.next"
+            ]
+        },
+        {
+            "before": [
+                "[",
+                "w"
+            ],
+            "commands": [
+                "editor.action.marker.prev"
+            ]
+        },
+        {
+            "before": [
+                "]",
                 "e"
             ],
             "commands": [
@@ -466,6 +475,7 @@
         {
             "before": [
                 "<leader>",
+                "k",
                 "o"
             ],
             "commands": [
@@ -522,10 +532,12 @@
         },
         {
             "before": [
-                "-"
+                "<leader>",
+                "k",
+                "i"
             ],
             "commands": [
-                "extension.toggleBool",
+                "extension.toggleBool"
             ]
         },
         {
@@ -533,7 +545,7 @@
                 "+"
             ],
             "commands": [
-                "expand_region",
+                "expand_region"
             ]
         },
         {
@@ -541,29 +553,9 @@
                 "_"
             ],
             "commands": [
-                "undo_expand_region",
+                "undo_expand_region"
             ]
-        },
-        {
-            "before": [
-                "<space>"
-            ],
-            "commands": [
-                "vspacecode.space"
-            ]
-        },
-        {
-            "before": [
-                ","
-            ],
-            "commands": [
-                "vspacecode.space",
-                {
-                    "command": "whichkey.triggerKey",
-                    "args": "m"
-                }
-            ]
-        },
+        }
     ],
     //// MacOS
     // "vim.autoSwitchInputMethod.enable": true,
