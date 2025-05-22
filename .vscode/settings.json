@@ -215,7 +215,7 @@
             "before": [
                 "<leader>",
                 "k",
-                "i"
+                "k"
             ],
             "commands": [
                 "extension.toggleBool"
@@ -290,15 +290,6 @@
             ],
             "commands": [
                 "editor.action.goToReferences"
-            ]
-        },
-        {
-            "before": [
-                "g",
-                "i"
-            ],
-            "commands": [
-                "editor.action.goToImplementation"
             ]
         },
         {
@@ -483,16 +474,6 @@
         {
             "before": [
                 "<leader>",
-                "k",
-                "o"
-            ],
-            "commands": [
-                "revealFileInOS"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
                 "p"
             ],
             "commands": [
@@ -540,12 +521,51 @@
         },
         {
             "before": [
+                "=",
+                "="
+            ],
+            "commands": [
+                "editor.action.format"
+            ]
+        },
+        {
+            "before": [
                 "<leader>",
                 "k",
-                "i"
+                "o"
+            ],
+            "commands": [
+                "revealFileInOS"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "k",
+                "k"
             ],
             "commands": [
                 "extension.toggleBool"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "u",
+                "z"
+            ],
+            "commands": [
+                "workbench.action.toggleZenMode"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "u",
+                "Z"
+            ],
+            "commands": [
+                "workbench.action.toggleFullScreen"
             ]
         },
         {
