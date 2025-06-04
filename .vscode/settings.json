@@ -21,8 +21,8 @@
     },
     "editor.linkedEditing": true,
     "editor.fontLigatures": true,
-    "editor.fontFamily": "'Jetbrains Mono Medium', 'Cascadia Code', Menlo, Monaco, Consolas, 'Courier New', 'LXGW WenKai Mono', 'WenJin Mincho Plane 3', 'WenJin Mincho Plane 2', 'WenJin Mincho Plane 0', monospace",
-    "terminal.integrated.fontFamily": "'JetbrainsMonoNL NF Medium', 'Jetbrains Mono NL Medium', 'Cascadia Mono NF', 'MesloLGS NF', 'LXGW WenKai Mono', 'WenJin Mincho Plane 3', 'WenJin Mincho Plane 2', 'WenJin Mincho Plane 0'",
+    "editor.fontFamily": "'Hack Nerd Font', 'Cascadia Code', Menlo, Monaco, Consolas, 'Courier New', 'LXGW WenKai Mono', 'WenJin Mincho Plane 3', 'WenJin Mincho Plane 2', 'WenJin Mincho Plane 0', monospace",
+    "terminal.integrated.fontFamily": "'Hack Nerd Font Mono', 'Cascadia Mono NF', 'MesloLGS NF', 'LXGW WenKai Mono', 'WenJin Mincho Plane 3', 'WenJin Mincho Plane 2', 'WenJin Mincho Plane 0'",
     // "window.zoomLevel": 1,
     // "editor.fontSize": 14,
     // "editor.lineHeight": 1.5,
@@ -183,15 +183,15 @@
         "<c-s>": false
     },
     "vim.insertModeKeyBindings": [
-        {
-            "before": [
-                "j",
-                "j"
-            ],
-            "after": [
-                "<esc>"
-            ]
-        },
+        //{
+        //    "before": [
+        //        "j",
+        //        "j"
+        //    ],
+        //    "after": [
+        //        "<esc>"
+        //    ]
+        //},
         {
             "before": [
                 "<c-x>"

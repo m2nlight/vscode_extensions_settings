@@ -26,6 +26,6 @@ Edit `~/.crossnote/style.less` or `%USERPROFILE%\.crossnote\style.less` file and
 
 ```css
 .markdown-preview.markdown-preview {
-  font-family: 'Jetbrains Mono', 'Cascadia Code', Menlo, Monaco, Consolas, 'Courier New', 'LXGW WenKai Mono', 'WenJin Mincho Plane 3', 'WenJin Mincho Plane 2', 'WenJin Mincho Plane 0', monospace;
+  font-family: 'FiraCode Nerd Font Propo', 'Cascadia Code', Menlo, Monaco, Consolas, 'Courier New', 'LXGW WenKai Mono', 'WenJin Mincho Plane 3', 'WenJin Mincho Plane 2', 'WenJin Mincho Plane 0', monospace;
 }
 ```
