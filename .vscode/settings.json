@@ -183,15 +183,15 @@
         "<c-s>": false
     },
     "vim.insertModeKeyBindings": [
-        //{
-        //    "before": [
-        //        "j",
-        //        "j"
-        //    ],
-        //    "after": [
-        //        "<esc>"
-        //    ]
-        //},
+        // {
+        //     "before": [
+        //         "j",
+        //         "j"
+        //     ],
+        //     "after": [
+        //         "<esc>"
+        //     ]
+        // },
         {
             "before": [
                 "<c-x>"
@@ -214,8 +214,7 @@
         {
             "before": [
                 "<leader>",
-                "k",
-                "k"
+                "y"
             ],
             "commands": [
                 "extension.toggleBool"
@@ -277,7 +276,7 @@
         {
             "before": [
                 "<leader>",
-                "<space>"
+                "<leader>"
             ],
             "commands": [
                 "workbench.action.showAllSymbols"
@@ -294,8 +293,8 @@
         },
         {
             "before": [
-                "g",
-                "I"
+                "<leader>",
+                "i"
             ],
             "commands": [
                 "editor.action.goToImplementation"
@@ -455,7 +454,6 @@
         {
             "before": [
                 "<leader>",
-                "c",
                 "a"
             ],
             "commands": [
@@ -469,6 +467,24 @@
             ],
             "commands": [
                 "workbench.files.action.focusFilesExplorer"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "z"
+            ],
+            "commands": [
+                "workbench.action.toggleZenMode"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "Z"
+            ],
+            "commands": [
+                "workbench.action.toggleFullScreen"
             ]
         },
         {
@@ -492,8 +508,7 @@
         {
             "before": [
                 "<leader>",
-                "s",
-                "f"
+                "F"
             ],
             "commands": [
                 "workbench.action.findInFiles"
@@ -502,8 +517,7 @@
         {
             "before": [
                 "<leader>",
-                "s",
-                "F"
+                "g"
             ],
             "commands": [
                 "actions.find"
@@ -512,8 +526,7 @@
         {
             "before": [
                 "<leader>",
-                "s",
-                "r"
+                "G"
             ],
             "commands": [
                 "editor.action.startFindReplaceAction"
@@ -521,8 +534,17 @@
         },
         {
             "before": [
-                "=",
-                "="
+                "<leader>",
+                "R"
+            ],
+            "commands": [
+                "workbench.action.replaceInFiles"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "f"
             ],
             "commands": [
                 "editor.action.format"
@@ -531,7 +553,6 @@
         {
             "before": [
                 "<leader>",
-                "k",
                 "o"
             ],
             "commands": [
@@ -541,31 +562,10 @@
         {
             "before": [
                 "<leader>",
-                "k",
-                "k"
+                "u"
             ],
             "commands": [
                 "extension.toggleBool"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "u",
-                "z"
-            ],
-            "commands": [
-                "workbench.action.toggleZenMode"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "u",
-                "Z"
-            ],
-            "commands": [
-                "workbench.action.toggleFullScreen"
             ]
         },
         {
