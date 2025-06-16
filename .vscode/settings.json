@@ -1,4 +1,5 @@
 {
+    // "editor.experimentalEditContextEnabled": false,
     "security.workspace.trust.enabled": false,
     "update.showReleaseNotes": false,
     "window.restoreWindows": "none",
