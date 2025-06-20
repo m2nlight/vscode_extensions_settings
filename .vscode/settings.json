@@ -22,7 +22,7 @@
     },
     "editor.linkedEditing": true,
     "editor.fontLigatures": true,
-    "editor.fontFamily": "'Hack Nerd Font', 'Cascadia Code', Menlo, Monaco, Consolas, 'Courier New', 'LXGW WenKai Mono', 'WenJin Mincho Plane 3', 'WenJin Mincho Plane 2', 'WenJin Mincho Plane 0', monospace",
+    "editor.fontFamily": "'FiraCode Nerd Font', 'Cascadia Code', Menlo, Monaco, Consolas, 'Courier New', 'LXGW WenKai Mono', 'WenJin Mincho Plane 3', 'WenJin Mincho Plane 2', 'WenJin Mincho Plane 0', monospace",
     "terminal.integrated.fontFamily": "'Hack Nerd Font Mono', 'Cascadia Mono NF', 'MesloLGS NF', 'LXGW WenKai Mono', 'WenJin Mincho Plane 3', 'WenJin Mincho Plane 2', 'WenJin Mincho Plane 0'",
     // "window.zoomLevel": 1,
     // "editor.fontSize": 14,
