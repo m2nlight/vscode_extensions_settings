@@ -22,8 +22,8 @@
     },
     "editor.linkedEditing": true,
     "editor.fontLigatures": true,
-    "editor.fontFamily": "'FiraCode Nerd Font', 'Cascadia Code', Menlo, Monaco, Consolas, 'Courier New', 'LXGW WenKai Mono', 'WenJin Mincho Plane 3', 'WenJin Mincho Plane 2', 'WenJin Mincho Plane 0', monospace",
-    "terminal.integrated.fontFamily": "'Hack Nerd Font Mono', 'Cascadia Mono NF', 'MesloLGS NF', 'LXGW WenKai Mono', 'WenJin Mincho Plane 3', 'WenJin Mincho Plane 2', 'WenJin Mincho Plane 0'",
+    "editor.fontFamily": "'FiraCode Nerd Font', 'Hack Nerd Font', Menlo, Monaco, Consolas, 'Courier New', 'LXGW WenKai', 'WenJin Mincho Plane 3', 'WenJin Mincho Plane 2', 'WenJin Mincho Plane 0', monospace",
+    "terminal.integrated.fontFamily": "'Hack Nerd Font Mono', 'LXGW WenKai Mono', Menlo, Monaco, Consolas, 'Courier New', 'WenJin Mincho Plane 3', 'WenJin Mincho Plane 2', 'WenJin Mincho Plane 0', monospace",
     // "window.zoomLevel": 1,
     // "editor.fontSize": 14,
     // "editor.lineHeight": 1.5,
@@ -181,7 +181,10 @@
     },
     "vim.leader": "<space>",
     "vim.handleKeys": {
-        "<c-s>": false
+        "<C-s>": false,
+        "<C-a>": false,
+        "<C-x>": false,
+        "<C-c>": false,
     },
     "vim.insertModeKeyBindings": [
         // {
@@ -203,6 +206,24 @@
         }
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "j"
+            ],
+            "after": [
+                "g",
+                "j"
+            ]
+        },
+        {
+            "before": [
+                "k"
+            ],
+            "after": [
+                "g",
+                "k"
+            ]
+        },
         {
             "before": [
                 "Y"
@@ -239,6 +260,24 @@
         }
     ],
     "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "j"
+            ],
+            "after": [
+                "g",
+                "j"
+            ]
+        },
+        {
+            "before": [
+                "k"
+            ],
+            "after": [
+                "g",
+                "k"
+            ]
+        },
         {
             "before": [
                 "Y"
