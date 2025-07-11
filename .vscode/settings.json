@@ -1,5 +1,4 @@
 {
-    // "editor.experimentalEditContextEnabled": false,
     "security.workspace.trust.enabled": false,
     "update.showReleaseNotes": false,
     "window.restoreWindows": "none",
@@ -196,14 +195,6 @@
         //         "<esc>"
         //     ]
         // },
-        {
-            "before": [
-                "<c-x>"
-            ],
-            "commands": [
-                "editor.action.clipboardCutAction"
-            ]
-        }
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
         {
@@ -257,6 +248,60 @@
             "commands": [
                 "undo_expand_region"
             ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "a"
+            ],
+            "after": [
+                "<c-a>"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "x"
+            ],
+            "after": [
+                "<c-x>"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "Q"
+            ],
+            "after": [
+                ":",
+                "q",
+                "a",
+                "<cr>"
+            ]
+        },
+        {
+            "before": [
+                "n"
+            ],
+            "after": [
+                ":",
+                "n",
+                "o",
+                "r",
+                "m",
+                " "
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "p"
+            ],
+            "after": [
+                "\"",
+                "0",
+                "p"
+            ]
         }
     ],
     "vim.normalModeKeyBindingsNonRecursive": [
@@ -289,6 +334,15 @@
         },
         {
             "before": [
+                "<leader>",
+                "y",
+            ],
+            "commands": [
+                "extension.toggleBool"
+            ]
+        },
+        {
+            "before": [
                 "<c-n>"
             ],
             "commands": [
@@ -298,6 +352,15 @@
         {
             "before": [
                 "K"
+            ],
+            "commands": [
+                "editor.action.showHover"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "k"
             ],
             "commands": [
                 "editor.action.showHover"
@@ -316,6 +379,15 @@
         {
             "before": [
                 "<leader>",
+                "s"
+            ],
+            "commands": [
+                "workbench.action.showAllSymbols"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
                 "<leader>"
             ],
             "commands": [
@@ -329,6 +401,15 @@
             ],
             "commands": [
                 "editor.action.goToReferences"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "I"
+            ],
+            "commands": [
+                "editor.action.goToImplementation"
             ]
         },
         {
@@ -364,11 +445,29 @@
         {
             "before": [
                 "<leader>",
-                "-"
+                "_"
             ],
             "after": [
                 "<c-w>",
                 "s"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "h"
+            ],
+            "after": [
+                "^"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "l"
+            ],
+            "after": [
+                "$"
             ]
         },
         {
@@ -496,8 +595,51 @@
                 "<leader>",
                 "a"
             ],
-            "commands": [
-                "editor.action.quickFix"
+            "after": [
+                "<c-a>"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "x"
+            ],
+            "after": [
+                "<c-x>"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "q"
+            ],
+            "after": [
+                ":",
+                "q",
+                "<cr>"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "Q"
+            ],
+            "after": [
+                ":",
+                "q",
+                "a",
+                "<cr>"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "w"
+            ],
+            "after": [
+                ":",
+                "w",
+                "<cr>"
             ]
         },
         {
@@ -530,7 +672,7 @@
         {
             "before": [
                 "<leader>",
-                "p"
+                "P"
             ],
             "commands": [
                 "workbench.action.pinEditor"
@@ -622,6 +764,17 @@
             ],
             "commands": [
                 "undo_expand_region"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "p"
+            ],
+            "after": [
+                "\"",
+                "0",
+                "p"
             ]
         }
     ],
