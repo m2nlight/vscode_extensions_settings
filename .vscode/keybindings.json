@@ -5,11 +5,11 @@
     //     "command": "-editor.action.quickFix",
     //     "when": "editorHasCodeActionsProvider && textInputFocus && !editorReadonly"
     // },
-    {
-        "key": "alt+b",
-        "command": "-extension.toggleBool",
-        "when": "editorTextFocus"
-    },
+    // {
+    //     "key": "alt+b",
+    //     "command": "-extension.toggleBool",
+    //     "when": "editorTextFocus"
+    // },
     {
         "key": "alt+enter",
         "command": "editor.action.quickFix",
@@ -64,16 +64,6 @@
         "command": "-markdown-preview-enhanced.syncPreview"
     },
     {
-        "key": "cmd+o",
-        "command": "projectManager.listFavoriteProjects#sideBarFavorites",
-        "when": "isMac"
-    },
-    {
-        "key": "alt+o",
-        "command": "projectManager.listFavoriteProjects#sideBarFavorites",
-        "when": "!isMac"
-    },
-    {
         "key": "ctrl+e",
         "command": "workbench.action.toggleSidebarVisibility",
         "when": "vim.active"
@@ -107,11 +97,6 @@
         "key": "d",
         "command": "deleteFile",
         "when": "filesExplorerFocus && !inputFocus && vim.active"
-    },
-    {
-        "key": "capslock capslock",
-        "command": "extension.vim_escape",
-        "when": "editorTextFocus && vim.active && vim.mode == 'Insert'"
     },
     {
         "key": "ctrl+d",

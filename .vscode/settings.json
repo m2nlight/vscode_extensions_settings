@@ -256,7 +256,7 @@
                 "a"
             ],
             "after": [
-                "<c-a>"
+                "<C-a>"
             ]
         },
         {
@@ -265,7 +265,7 @@
                 "x"
             ],
             "after": [
-                "<c-x>"
+                "<C-x>"
             ]
         },
         {
@@ -302,6 +302,42 @@
                 "\"",
                 "0",
                 "p"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "f"
+            ],
+            "commands": [
+                "actions.find"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "F"
+            ],
+            "commands": [
+                "workbench.action.findInFiles"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "R"
+            ],
+            "commands": [
+                "workbench.action.replaceInFiles"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "r"
+            ],
+            "commands": [
+                "editor.action.rename"
             ]
         }
     ],
@@ -344,7 +380,7 @@
         },
         {
             "before": [
-                "<c-n>"
+                "<Esc>"
             ],
             "commands": [
                 ":nohl"
@@ -439,7 +475,7 @@
                 "|"
             ],
             "after": [
-                "<c-w>",
+                "<C-w>",
                 "v"
             ]
         },
@@ -449,7 +485,7 @@
                 "_"
             ],
             "after": [
-                "<c-w>",
+                "<C-w>",
                 "s"
             ]
         },
@@ -597,7 +633,7 @@
                 "a"
             ],
             "after": [
-                "<c-a>"
+                "<C-a>"
             ]
         },
         {
@@ -606,7 +642,7 @@
                 "x"
             ],
             "after": [
-                "<c-x>"
+                "<C-x>"
             ]
         },
         {
@@ -745,6 +781,15 @@
         {
             "before": [
                 "<leader>",
+                "O"
+            ],
+            "commands": [
+                "projectManager.listFavoriteProjects#sideBarFavorites"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
                 "u"
             ],
             "commands": [
@@ -776,6 +821,42 @@
                 "\"",
                 "0",
                 "p"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "f"
+            ],
+            "commands": [
+                "actions.find"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "F"
+            ],
+            "commands": [
+                "workbench.action.findInFiles"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "R"
+            ],
+            "commands": [
+                "workbench.action.replaceInFiles"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "r"
+            ],
+            "commands": [
+                "editor.action.rename"
             ]
         }
     ],
