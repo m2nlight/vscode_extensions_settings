@@ -858,6 +858,15 @@
             "commands": [
                 "editor.action.rename"
             ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "/"
+            ],
+            "commands": [
+                "editor.action.toggleWordWrap"
+            ]
         }
     ],
     //// MacOS
