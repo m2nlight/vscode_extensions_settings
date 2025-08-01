@@ -339,6 +339,24 @@
             "commands": [
                 "editor.action.rename"
             ]
+        },
+        {
+            "before": [
+                ",",
+                "w"
+            ],
+            "commands": [
+                "subwordNavigation.cursorSubwordRightSelect"
+            ]
+        },
+        {
+            "before": [
+                ",",
+                "b"
+            ],
+            "commands": [
+                "subwordNavigation.cursorSubwordLeftSelect"
+            ]
         }
     ],
     "vim.normalModeKeyBindingsNonRecursive": [
@@ -866,6 +884,24 @@
             ],
             "commands": [
                 "editor.action.toggleWordWrap"
+            ]
+        },
+        {
+            "before": [
+                ",",
+                "w"
+            ],
+            "commands": [
+                "subwordNavigation.cursorSubwordRight"
+            ]
+        },
+        {
+            "before": [
+                ",",
+                "b"
+            ],
+            "commands": [
+                "subwordNavigation.cursorSubwordLeft"
             ]
         }
     ],

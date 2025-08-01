@@ -32,7 +32,6 @@
         "dbankier.vscode-quick-select",
         "silesky.toggle-boolean",
         "alefragnani.numbered-bookmarks",
-        "alefragnani.project-manager",
         "arthurlobo.easy-codesnap",
         "christian-kohler.path-intellisense",
         "eriklynd.json-tools",
@@ -100,5 +99,9 @@
         // "ms-vscode-remote.remote-ssh-edit"
         //// ---- VIM ----
         //"vscodevim.vim",
+        //"ow.vscode-subword-navigation",
+        //"letrieu.expand-region",
+        //"silesky.toggle-boolean",
+        "alefragnani.project-manager",
     ]
 }
