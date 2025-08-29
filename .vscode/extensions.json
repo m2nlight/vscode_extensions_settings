@@ -20,17 +20,17 @@
         "kukushi.pasteurl",
         "takumii.markdowntable",
         "foam.foam-vscode",
+        "therainisme.clear-markdown-unused-images",
         //// --- git ---
-        // "huizhou.githd",
         "mhutchie.git-graph",
+        "mk12.better-git-line-blame",
         // "donjayamanne.githistory",
+        // "huizhou.githd",
         //// --- code ---
         // "formulahendry.code-runner",
         // "pedrotavares.myzoom",
         // "edgardmessias.clipboard-manager",
-        "letrieu.expand-region",
-        "dbankier.vscode-quick-select",
-        "silesky.toggle-boolean",
+        // "dbankier.vscode-quick-select",
         "alefragnani.numbered-bookmarks",
         "eugenejeon.codesnap-plus-fix",
         "christian-kohler.path-intellisense",
@@ -57,6 +57,7 @@
         "esbenp.prettier-vscode",
         "dbaeumer.vscode-eslint",
         "richie5um2.vscode-sort-json",
+        // "naumovs.color-highlight",
         //// --- Rust ---
         // "tauri-apps.tauri-vscode",
         // "fill-labs.dependi",
@@ -90,6 +91,7 @@
         "mechatroner.rainbow-csv",
         //// --- draw ---
         // "hediet.vscode-drawio",
+        // "jebbs.plantuml",
         // "jock.svg",
         //// --- HEX ---
         // "ms-vscode.hexeditor",

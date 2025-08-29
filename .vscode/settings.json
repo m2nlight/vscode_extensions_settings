@@ -89,6 +89,7 @@
     "terminal.integrated.defaultProfile.windows": "Git Bash",
     "terminal.integrated.defaultProfile.osx": "zsh",
     "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.external.windowsExec": "wt.exe",
     "trailing-spaces.trimOnSave": true,
     "markdown-preview-enhanced.enableExtendedTableSyntax": false,
     "markdown-preview-enhanced.enableTypographer": true,
