@@ -85,6 +85,7 @@
     "typescript.preferences.importModuleSpecifier": "relative",
     "typescript.updateImportsOnFileMove.enabled": "always",
     "csv-edit.readOption_hasHeader": "true",
+    "terminal.explorerKind": "both",
     "terminal.integrated.copyOnSelection": true,
     "terminal.integrated.defaultProfile.windows": "Git Bash",
     "terminal.integrated.defaultProfile.osx": "zsh",
