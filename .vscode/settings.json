@@ -41,8 +41,8 @@
     "editor.suggest.insertMode": "replace",
     "window.autoDetectColorScheme": true,
     "workbench.preferredDarkColorTheme": "Everforest Dark",
-    "workbench.preferredLightColorTheme": "Default Light Modern",
-    "workbench.iconTheme": "material-icon-theme",
+    "workbench.preferredLightColorTheme": "Catppuccin Mocha",
+    "workbench.iconTheme": "catppuccin-mocha",
     "workbench.startupEditor": "readme",
     "zenMode.hideLineNumbers": false,
     "zenMode.showTabs": "none",
@@ -184,11 +184,20 @@
     "vim.leader": "<space>",
     "vim.handleKeys": {
         "<C-s>": false,
-        "<C-a>": false,
+        "<C-a>": true,
         "<C-x>": false,
         "<C-c>": false,
     },
     "vim.insertModeKeyBindings": [
+        // {
+        //     "before": [
+        //         "j",
+        //         "j"
+        //     ],
+        //     "after": [
+        //         "<esc>"
+        //     ]
+        // },
         {
             "before": [
                 "<C-o>"
@@ -205,15 +214,18 @@
                 "workbench.action.navigateForward"
             ]
         },
-        // {
-        //     "before": [
-        //         "j",
-        //         "j"
-        //     ],
-        //     "after": [
-        //         "<esc>"
-        //     ]
-        // },
+        {
+            "before": [
+                "<C-a>"
+            ],
+            "after": [
+                "<Esc>",
+                "g",
+                "g",
+                "v",
+                "G"
+            ]
+        },
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
         {
@@ -230,6 +242,18 @@
             ],
             "commands": [
                 "workbench.action.navigateForward"
+            ]
+        },
+        {
+            "before": [
+                "<C-a>"
+            ],
+            "after": [
+                "<Esc>",
+                "g",
+                "g",
+                "v",
+                "G"
             ]
         },
         {
@@ -262,7 +286,7 @@
         {
             "before": [
                 "<leader>",
-                "y"
+                "i"
             ],
             "commands": [
                 "extension.toggleBool"
@@ -287,7 +311,7 @@
         {
             "before": [
                 "<leader>",
-                "a"
+                "n"
             ],
             "after": [
                 "<C-a>"
@@ -296,7 +320,7 @@
         {
             "before": [
                 "<leader>",
-                "x"
+                "N"
             ],
             "after": [
                 "<C-x>"
@@ -305,12 +329,36 @@
         {
             "before": [
                 "<leader>",
-                "Q"
+                "<leader>",
+                "q"
             ],
             "after": [
                 ":",
                 "q",
-                "a",
+                "<cr>"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "<leader>",
+                "x"
+            ],
+            "after": [
+                ":",
+                "x",
+                "<cr>"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "<leader>",
+                "x"
+            ],
+            "after": [
+                ":",
+                "x",
                 "<cr>"
             ]
         },
@@ -341,7 +389,18 @@
         {
             "before": [
                 "<leader>",
-                "f"
+                "P"
+            ],
+            "after": [
+                "\"",
+                "0",
+                "P"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "s"
             ],
             "commands": [
                 "actions.find"
@@ -350,7 +409,8 @@
         {
             "before": [
                 "<leader>",
-                "F"
+                "<leader>",
+                "s"
             ],
             "commands": [
                 "workbench.action.findInFiles"
@@ -359,7 +419,17 @@
         {
             "before": [
                 "<leader>",
-                "R"
+                "a"
+            ],
+            "commands": [
+                "editor.action.startFindReplaceAction"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "<leader>",
+                "a"
             ],
             "commands": [
                 "workbench.action.replaceInFiles"
@@ -412,6 +482,17 @@
         },
         {
             "before": [
+                "<C-a>"
+            ],
+            "after": [
+                "g",
+                "g",
+                "v",
+                "G"
+            ]
+        },
+        {
+            "before": [
                 "j"
             ],
             "after": [
@@ -440,7 +521,7 @@
         {
             "before": [
                 "<leader>",
-                "y",
+                "i",
             ],
             "commands": [
                 "extension.toggleBool"
@@ -452,6 +533,16 @@
             ],
             "commands": [
                 ":nohl"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "j"
+            ],
+            "after": [
+                "z",
+                "a"
             ]
         },
         {
@@ -484,7 +575,7 @@
         {
             "before": [
                 "<leader>",
-                "s"
+                "g"
             ],
             "commands": [
                 "workbench.action.showAllSymbols"
@@ -493,10 +584,10 @@
         {
             "before": [
                 "<leader>",
-                "<leader>"
+                ","
             ],
             "commands": [
-                "workbench.action.showAllSymbols"
+                "workbench.action.showAllEditors"
             ]
         },
         {
@@ -520,7 +611,7 @@
         {
             "before": [
                 "<leader>",
-                "i"
+                "m"
             ],
             "commands": [
                 "editor.action.goToImplementation"
@@ -698,7 +789,7 @@
         {
             "before": [
                 "<leader>",
-                "a"
+                "n"
             ],
             "after": [
                 "<C-a>"
@@ -707,7 +798,7 @@
         {
             "before": [
                 "<leader>",
-                "x"
+                "N"
             ],
             "after": [
                 "<C-x>"
@@ -715,6 +806,29 @@
         },
         {
             "before": [
+                "<leader>",
+                "q"
+            ],
+            "after": [
+                "c",
+                "i",
+                "\""
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "Q"
+            ],
+            "after": [
+                "c",
+                "i",
+                "'"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
                 "<leader>",
                 "q"
             ],
@@ -727,17 +841,28 @@
         {
             "before": [
                 "<leader>",
-                "Q"
+                "w"
             ],
             "after": [
-                ":",
-                "q",
-                "a",
-                "<cr>"
+                "c",
+                "i",
+                "w"
             ]
         },
         {
             "before": [
+                "<leader>",
+                "W"
+            ],
+            "after": [
+                "c",
+                "i",
+                "b"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
                 "<leader>",
                 "w"
             ],
@@ -745,6 +870,38 @@
                 ":",
                 "w",
                 "<cr>"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "t"
+            ],
+            "after": [
+                "c",
+                "i",
+                "t"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "T"
+            ],
+            "after": [
+                "c",
+                "a",
+                "t"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "<leader>",
+                "t"
+            ],
+            "commands": [
+                "todo-tree-view.toggleVisibility"
             ]
         },
         {
@@ -768,7 +925,8 @@
         {
             "before": [
                 "<leader>",
-                "Z"
+                "<leader>",
+                "z"
             ],
             "commands": [
                 "workbench.action.toggleFullScreen"
@@ -777,7 +935,8 @@
         {
             "before": [
                 "<leader>",
-                "P"
+                "<leader>",
+                "p"
             ],
             "commands": [
                 "workbench.action.pinEditor"
@@ -785,6 +944,7 @@
         },
         {
             "before": [
+                "<leader>",
                 "<leader>",
                 "P"
             ],
@@ -795,7 +955,8 @@
         {
             "before": [
                 "<leader>",
-                "F"
+                "<leader>",
+                "s"
             ],
             "commands": [
                 "workbench.action.findInFiles"
@@ -804,7 +965,7 @@
         {
             "before": [
                 "<leader>",
-                "g"
+                "s"
             ],
             "commands": [
                 "actions.find"
@@ -813,7 +974,7 @@
         {
             "before": [
                 "<leader>",
-                "G"
+                "a"
             ],
             "commands": [
                 "editor.action.startFindReplaceAction"
@@ -822,7 +983,8 @@
         {
             "before": [
                 "<leader>",
-                "R"
+                "<leader>",
+                "a"
             ],
             "commands": [
                 "workbench.action.replaceInFiles"
@@ -830,8 +992,8 @@
         },
         {
             "before": [
-                "<leader>",
-                "f"
+                "=",
+                "="
             ],
             "commands": [
                 "editor.action.format"
@@ -849,16 +1011,7 @@
         {
             "before": [
                 "<leader>",
-                "O"
-            ],
-            "commands": [
-                "projectManager.listFavoriteProjects#sideBarFavorites"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "u"
+                "i"
             ],
             "commands": [
                 "extension.toggleBool"
@@ -894,28 +1047,12 @@
         {
             "before": [
                 "<leader>",
-                "f"
+                "P"
             ],
-            "commands": [
-                "actions.find"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "F"
-            ],
-            "commands": [
-                "workbench.action.findInFiles"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "R"
-            ],
-            "commands": [
-                "workbench.action.replaceInFiles"
+            "after": [
+                "\"",
+                "0",
+                "P"
             ]
         },
         {
@@ -930,7 +1067,7 @@
         {
             "before": [
                 "<leader>",
-                "/"
+                "y"
             ],
             "commands": [
                 "editor.action.toggleWordWrap"
