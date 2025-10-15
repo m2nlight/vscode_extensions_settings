@@ -85,7 +85,8 @@
         "k--kato.docomment",
         "tintoy.msbuild-project-tools",
         //// --- shell script ---
-        "foxundermoon.shell-format",
+        "mkhl.shfmt",
+        // "ms-vscode.powershell",
         //// --- csv ---
         "janisdd.vscode-edit-csv",
         "mechatroner.rainbow-csv",
