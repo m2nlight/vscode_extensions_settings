@@ -39,6 +39,7 @@
     "editor.inlineSuggest.enabled": true,
     "editor.minimap.enabled": false,
     "editor.suggest.insertMode": "replace",
+    "editor.autoClosingBrackets": "always",
     "window.autoDetectColorScheme": true,
     "workbench.preferredDarkColorTheme": "Catppuccin Mocha",
     "workbench.preferredLightColorTheme": "Catppuccin Latte",
