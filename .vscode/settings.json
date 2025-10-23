@@ -410,24 +410,6 @@
             "commands": [
                 "editor.action.rename"
             ]
-        },
-        {
-            "before": [
-                ",",
-                "w"
-            ],
-            "commands": [
-                "subwordNavigation.cursorSubwordRightSelect"
-            ]
-        },
-        {
-            "before": [
-                ",",
-                "b"
-            ],
-            "commands": [
-                "subwordNavigation.cursorSubwordLeftSelect"
-            ]
         }
     ],
     "vim.normalModeKeyBindingsNonRecursive": [
@@ -558,10 +540,47 @@
         {
             "before": [
                 "<leader>",
-                "g"
+                "d"
+            ],
+            "commands": [
+                "workbench.action.gotoSymbol"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "f"
+            ],
+            "commands": [
+                "workbench.action.findInFiles"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "<leader>",
+                "f"
             ],
             "commands": [
                 "workbench.action.showAllSymbols"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "t"
+            ],
+            "commands": [
+                "workbench.action.showAllSymbols"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "."
+            ],
+            "commands": [
+                "workbench.action.quickOpen"
             ]
         },
         {
@@ -571,6 +590,15 @@
             ],
             "commands": [
                 "workbench.action.showAllEditors"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                ":"
+            ],
+            "commands": [
+                "workbench.action.showCommands"
             ]
         },
         {
@@ -858,28 +886,6 @@
         {
             "before": [
                 "<leader>",
-                "t"
-            ],
-            "after": [
-                "c",
-                "i",
-                "t"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "T"
-            ],
-            "after": [
-                "c",
-                "a",
-                "t"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
                 "<leader>",
                 "t"
             ],
@@ -1054,24 +1060,6 @@
             ],
             "commands": [
                 "editor.action.toggleWordWrap"
-            ]
-        },
-        {
-            "before": [
-                ",",
-                "w"
-            ],
-            "commands": [
-                "subwordNavigation.cursorSubwordRight"
-            ]
-        },
-        {
-            "before": [
-                ",",
-                "b"
-            ],
-            "commands": [
-                "subwordNavigation.cursorSubwordLeft"
             ]
         }
     ],
