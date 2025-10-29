@@ -93,6 +93,7 @@
     "terminal.integrated.defaultProfile.linux": "zsh",
     "terminal.external.windowsExec": "wt.exe",
     "trailing-spaces.trimOnSave": true,
+    "lldb.suppressUpdateNotifications": true,
     "markdown-preview-enhanced.enableExtendedTableSyntax": false,
     "markdown-preview-enhanced.enableTypographer": true,
     "markdown-preview-enhanced.enableHTML5Embed": true,
@@ -108,6 +109,12 @@
     "dotnetAcquisitionExtension.enableTelemetry": false,
     "dotnetAcquisitionExtension.installTimeoutValue": 0,
     "dotnetAcquisitionExtension.sharedExistingDotnetPath": "C:\\Program Files\\dotnet\\dotnet.exe",
+    "dotnetAcquisitionExtension.existingDotnetPath": [
+        {
+            "extensionId": "ms-dotnettools.csharp",
+            "path": "C:\\Program Files\\dotnet\\dotnet.exe"
+        }
+    ],
     // "dotnet.dotnetPath": "/usr/local/share/dotnet",
     // "dotnet.preferCSharpExtension": true,
     "csharp.inlayHints.enableInlayHintsForImplicitObjectCreation": true,
@@ -577,7 +584,7 @@
         {
             "before": [
                 "<leader>",
-                "."
+                "<leader>"
             ],
             "commands": [
                 "workbench.action.quickOpen"
@@ -622,7 +629,8 @@
         {
             "before": [
                 "<leader>",
-                "m"
+                "<leader>",
+                "i"
             ],
             "commands": [
                 "editor.action.goToImplementation"
