@@ -41,32 +41,32 @@
         // "oderwat.indent-rainbow",
         // "gurayyarar.dummytextgenerator",
         // "richie5um2.vscode-sort-json",
-        "christian-kohler.path-intellisense",
-        "eriklynd.json-tools",
+        // "christian-kohler.path-intellisense",
+        // "streetsidesoftware.code-spell-checker",
         "gruntfuggly.todo-tree",
         "shardulm94.trailing-spaces",
         "usernamehw.errorlens",
-        "streetsidesoftware.code-spell-checker",
         //// --- strings ---
         // "marclipovsky.string-manipulation",
         // "chouzz.vscode-better-align",
         // "ciiqr.encode",
         // "nhoizey.gremlins",
         //// --- XML/HTML/CSS/JS/TS ---
+        // "formulahendry.auto-close-tag",
+        // "formulahendry.auto-rename-tag",
         // "naumovs.color-highlight",
-        "dotjoshjohnson.xml",
-        "formulahendry.auto-close-tag",
-        "formulahendry.auto-rename-tag",
-        "esbenp.prettier-vscode",
-        "dbaeumer.vscode-eslint",
+        // "dotjoshjohnson.xml",
         "angular.ng-template",
         "bradlc.vscode-tailwindcss",
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
+        "ms-vscode.live-server",
         //// --- Rust ---
         // "tauri-apps.tauri-vscode",
-        "rust-lang.rust-analyzer",
-        "tamasfe.even-better-toml",
-        "vadimcn.vscode-lldb",
-        "fill-labs.dependi",
+        // "rust-lang.rust-analyzer",
+        // "tamasfe.even-better-toml",
+        // "vadimcn.vscode-lldb",
+        // "fill-labs.dependi",
         //// --- C++ ---
         // "ms-vscode.cpptools",
         // "ms-vscode.cmake-tools",
@@ -80,7 +80,7 @@
         "ms-dotnettools.csdevkit",
         "patcx.vscode-nuget-gallery",
         "csharpier.csharpier-vscode",
-        "doggy8088.quicktype-refresh",
+        "quicktype.quicktype",
         //// --- shell script ---
         "mkhl.shfmt",
         "ms-vscode.powershell",
@@ -88,19 +88,19 @@
         "janisdd.vscode-edit-csv",
         "mechatroner.rainbow-csv",
         //// --- draw ---
-        // "hediet.vscode-drawio",
+        "hediet.vscode-drawio",
         // "jebbs.plantuml",
         // "jock.svg",
         //// --- HEX ---
-        // "ms-vscode.hexeditor",
+        "ms-vscode.hexeditor",
         //// --- Remote ---
         // "ms-vscode.remote-explorer",
         // "ms-vscode-remote.remote-ssh",
         // "ms-vscode-remote.remote-ssh-edit"
         //// ---- VIM ----
-        // "vscodevim.vim",
-        // "letrieu.expand-region",
-        // "silesky.toggle-boolean",
         // "ow.vscode-subword-navigation",
+        "vscodevim.vim",
+        "letrieu.expand-region",
+        "silesky.toggle-boolean",
     ]
 }
