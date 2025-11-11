@@ -35,8 +35,6 @@
         // "dbankier.vscode-quick-select",
         // "kisstkondoros.vscode-gutter-preview",
         // "eugenejeon.codesnap-plus-fix",
-        // "humao.rest-client",
-        // "pflannery.vscode-versionlens",
         // "ibm.output-colorizer",
         // "oderwat.indent-rainbow",
         // "gurayyarar.dummytextgenerator",
@@ -46,6 +44,7 @@
         "gruntfuggly.todo-tree",
         "shardulm94.trailing-spaces",
         "usernamehw.errorlens",
+        "pflannery.vscode-versionlens",
         //// --- strings ---
         // "marclipovsky.string-manipulation",
         // "chouzz.vscode-better-align",
@@ -55,7 +54,7 @@
         // "formulahendry.auto-close-tag",
         // "formulahendry.auto-rename-tag",
         // "naumovs.color-highlight",
-        // "dotjoshjohnson.xml",
+        "mikeburgh.xml-format",
         "angular.ng-template",
         "bradlc.vscode-tailwindcss",
         "esbenp.prettier-vscode",
@@ -81,6 +80,7 @@
         "patcx.vscode-nuget-gallery",
         "csharpier.csharpier-vscode",
         "quicktype.quicktype",
+        "humao.rest-client",
         //// --- shell script ---
         "mkhl.shfmt",
         "ms-vscode.powershell",
