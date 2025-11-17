@@ -550,6 +550,15 @@
                 "d"
             ],
             "commands": [
+                "workbench.action.showAllSymbols"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "f"
+            ],
+            "commands": [
                 "workbench.action.gotoSymbol"
             ]
         },
@@ -559,7 +568,7 @@
                 "f"
             ],
             "commands": [
-                "workbench.action.findInFiles"
+                "workbench.action.showAllSymbols"
             ]
         },
         {
@@ -569,16 +578,7 @@
                 "f"
             ],
             "commands": [
-                "workbench.action.showAllSymbols"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "t"
-            ],
-            "commands": [
-                "workbench.action.showAllSymbols"
+                "workbench.action.findInFiles"
             ]
         },
         {
@@ -876,7 +876,7 @@
             "after": [
                 "c",
                 "i",
-                "b"
+                "["
             ]
         },
         {
@@ -889,6 +889,50 @@
                 ":",
                 "w",
                 "<cr>"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "b"
+            ],
+            "after": [
+                "c",
+                "i",
+                "b"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "B"
+            ],
+            "after": [
+                "c",
+                "i",
+                "{"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "t"
+            ],
+            "after": [
+                "c",
+                "i",
+                "t"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "T"
+            ],
+            "after": [
+                "c",
+                "a",
+                "t"
             ]
         },
         {
