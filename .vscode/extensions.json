@@ -27,9 +27,11 @@
         // "donjayamanne.githistory",
         // "huizhou.githd",
         //// --- code ---
+        "alefragnani.bookmarks",
+        "alefragnani.read-only-indicator",
+        // "alefragnani.numbered-bookmarks",
         // "formulahendry.code-runner",
         // "pedrotavares.myzoom",
-        // "alefragnani.numbered-bookmarks",
         // "alefragnani.project-manager",
         // "edgardmessias.clipboard-manager",
         // "dbankier.vscode-quick-select",
@@ -92,7 +94,7 @@
         // "jebbs.plantuml",
         // "jock.svg",
         //// --- HEX ---
-        "ms-vscode.hexeditor",
+        // "ms-vscode.hexeditor",
         //// --- Remote ---
         // "ms-vscode.remote-explorer",
         // "ms-vscode-remote.remote-ssh",

@@ -26,6 +26,6 @@ Edit `~/.crossnote/style.less` or `%USERPROFILE%\.crossnote\style.less` file and
 
 ```css
 .markdown-preview.markdown-preview {
-  font-family: 'FiraCode Nerd Font', Menlo, Monaco, Consolas, 'Courier New', 'LXGW WenKai', monospace;
+  font-family: 'FiraCode Nerd Font', Menlo, Monaco, Consolas, 'Courier New', 'LXGW WenKai', monospace, '文津宋体 第3平面', '文津宋体 第2平面', '文津宋体 第0平面';
 }
 ```

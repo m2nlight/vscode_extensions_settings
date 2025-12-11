@@ -24,7 +24,7 @@
     },
     "editor.linkedEditing": true,
     "editor.fontLigatures": true,
-    "editor.fontFamily": "'FiraCode Nerd Font', Menlo, Monaco, Consolas, 'Courier New', 'LXGW WenKai', monospace",
+    "editor.fontFamily": "'FiraCode Nerd Font', Menlo, Monaco, Consolas, 'Courier New', 'LXGW WenKai', monospace, '文津宋体 第3平面', '文津宋体 第2平面', '文津宋体 第0平面'",
     "terminal.integrated.fontFamily": "'Hack Nerd Font Mono', Menlo, Monaco, Consolas, 'Courier New', monospace",
     // "window.zoomLevel": 1,
     // "editor.fontSize": 14,
@@ -587,6 +587,15 @@
             "before": [
                 "<leader>",
                 "<leader>"
+            ],
+            "commands": [
+                "workbench.action.quickOpen"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "D"
             ],
             "commands": [
                 "workbench.action.quickOpen"
