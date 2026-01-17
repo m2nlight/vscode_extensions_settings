@@ -82,8 +82,12 @@
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
+    "[xml]": {
+        "csharpier.enableDiagnostics": false,
+        "editor.defaultFormatter": "DotJoshJohnson.xml",
+    },
     "[csharp]": {
-        "editor.defaultFormatter": "csharpier.csharpier-vscode"
+        "editor.defaultFormatter": "csharpier.csharpier-vscode",
     },
     "typescript.preferences.importModuleSpecifier": "relative",
     "typescript.updateImportsOnFileMove.enabled": "always",
