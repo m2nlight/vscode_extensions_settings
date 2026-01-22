@@ -2,33 +2,36 @@
     "recommendations": [
         //// --- UI ---
         //// ICON
-        "catppuccin.catppuccin-vsc-icons",
         "pkief.material-icon-theme",
+        // "catppuccin.catppuccin-vsc-icons",
         //// UI
         "catppuccin.catppuccin-vsc",
         // "enkia.tokyo-night",
-        // "sainnhe.everforest",
         // "zhuangtongfa.material-theme",
         //// --- status bar ---
         // "compulim.vscode-clock",
         // "compulim.vscode-ipaddress",
         //// --- markdown ---
-        // "telesoho.vscode-markdown-paste-image",
-        // "bierner.emojisense",
-        // "kukushi.pasteurl",
         "shd101wyy.markdown-preview-enhanced",
         "yzhang.markdown-all-in-one",
         "takumii.markdowntable",
         "foam.foam-vscode",
         "therainisme.clear-markdown-unused-images",
+        // "telesoho.vscode-markdown-paste-image",
+        // "bierner.emojisense",
+        // "kukushi.pasteurl",
         //// --- git ---
         "mhutchie.git-graph",
         "mk12.better-git-line-blame",
         // "donjayamanne.githistory",
         // "huizhou.githd",
         //// --- code ---
-        "alefragnani.bookmarks",
+        "gruntfuggly.todo-tree",
+        "shardulm94.trailing-spaces",
+        "usernamehw.errorlens",
+        "pflannery.vscode-versionlens",
         "alefragnani.read-only-indicator",
+        "alefragnani.bookmarks",
         // "alefragnani.numbered-bookmarks",
         // "formulahendry.code-runner",
         // "pedrotavares.myzoom",
@@ -43,25 +46,21 @@
         // "richie5um2.vscode-sort-json",
         // "christian-kohler.path-intellisense",
         // "streetsidesoftware.code-spell-checker",
-        "gruntfuggly.todo-tree",
-        "shardulm94.trailing-spaces",
-        "usernamehw.errorlens",
-        "pflannery.vscode-versionlens",
         //// --- strings ---
         // "marclipovsky.string-manipulation",
         // "chouzz.vscode-better-align",
         // "ciiqr.encode",
         // "nhoizey.gremlins",
         //// --- XML/HTML/CSS/JS/TS ---
-        // "formulahendry.auto-close-tag",
-        // "formulahendry.auto-rename-tag",
-        // "naumovs.color-highlight",
-        "DotJoshJohnson.xml",
+        "dotjoshjohnson.xml",
         "angular.ng-template",
         "bradlc.vscode-tailwindcss",
         "esbenp.prettier-vscode",
         "dbaeumer.vscode-eslint",
         "ms-vscode.live-server",
+        // "formulahendry.auto-close-tag",
+        // "formulahendry.auto-rename-tag",
+        // "naumovs.color-highlight",
         //// --- Rust ---
         // "tauri-apps.tauri-vscode",
         // "rust-lang.rust-analyzer",
@@ -73,16 +72,16 @@
         // "ms-vscode.cmake-tools",
         // "jeff-hykin.better-cpp-syntax",
         //// --- C# ---
+        "ms-dotnettools.csdevkit",
+        "patcx.vscode-nuget-gallery",
+        "csharpier.csharpier-vscode",
+        "quicktype.quicktype",
+        // "humao.rest-client",
         // "avaloniateam.vscode-avalonia",
         // "dabbinavo.xamlstyler",
         // "zxh404.vscode-proto3",
         // "formulahendry.dotnet-test-explorer",
         // "ryanluker.vscode-coverage-gutters",
-        "ms-dotnettools.csdevkit",
-        "patcx.vscode-nuget-gallery",
-        "csharpier.csharpier-vscode",
-        "quicktype.quicktype",
-        "humao.rest-client",
         //// --- shell script ---
         "mkhl.shfmt",
         "ms-vscode.powershell",
@@ -91,7 +90,7 @@
         "mechatroner.rainbow-csv",
         //// --- draw ---
         "hediet.vscode-drawio",
-        // "jebbs.plantuml",
+        "jebbs.plantuml",
         // "jock.svg",
         //// --- HEX ---
         // "ms-vscode.hexeditor",
@@ -100,9 +99,9 @@
         // "ms-vscode-remote.remote-ssh",
         // "ms-vscode-remote.remote-ssh-edit"
         //// ---- VIM ----
-        // "ow.vscode-subword-navigation",
         "vscodevim.vim",
         "letrieu.expand-region",
         "silesky.toggle-boolean",
+        // "ow.vscode-subword-navigation",
     ]
 }
