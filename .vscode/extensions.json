@@ -12,13 +12,18 @@
         // "compulim.vscode-clock",
         // "compulim.vscode-ipaddress",
         //// --- markdown ---
-        "shd101wyy.markdown-preview-enhanced",
         "yzhang.markdown-all-in-one",
         "takumii.markdowntable",
         "foam.foam-vscode",
         "therainisme.clear-markdown-unused-images",
-        // "telesoho.vscode-markdown-paste-image",
+        "shd101wyy.markdown-preview-enhanced",
         // "bierner.emojisense",
+        // "bierner.markdown-emoji",
+        // "bierner.markdown-footnotes",
+        // "bierner.markdown-mermaid",
+        // "cweijan.vscode-office",
+        // "marp-team.marp-vscode",
+        // "telesoho.vscode-markdown-paste-image",
         // "kukushi.pasteurl",
         //// --- git ---
         "mhutchie.git-graph",
@@ -27,11 +32,11 @@
         // "huizhou.githd",
         //// --- code ---
         "gruntfuggly.todo-tree",
-        "shardulm94.trailing-spaces",
         "usernamehw.errorlens",
         "pflannery.vscode-versionlens",
-        "alefragnani.read-only-indicator",
-        "alefragnani.bookmarks",
+        "shardulm94.trailing-spaces",
+        // "alefragnani.read-only-indicator",
+        // "alefragnani.bookmarks",
         // "alefragnani.numbered-bookmarks",
         // "formulahendry.code-runner",
         // "pedrotavares.myzoom",
@@ -53,20 +58,20 @@
         // "nhoizey.gremlins",
         //// --- XML/HTML/CSS/JS/TS ---
         "dotjoshjohnson.xml",
-        "angular.ng-template",
         "bradlc.vscode-tailwindcss",
         "esbenp.prettier-vscode",
         "dbaeumer.vscode-eslint",
         "ms-vscode.live-server",
+        // "angular.ng-template",
         // "formulahendry.auto-close-tag",
         // "formulahendry.auto-rename-tag",
         // "naumovs.color-highlight",
         //// --- Rust ---
-        // "tauri-apps.tauri-vscode",
         // "rust-lang.rust-analyzer",
-        // "tamasfe.even-better-toml",
         // "vadimcn.vscode-lldb",
         // "fill-labs.dependi",
+        // "tamasfe.even-better-toml",
+        // "tauri-apps.tauri-vscode",
         //// --- C++ ---
         // "ms-vscode.cpptools",
         // "ms-vscode.cmake-tools",
@@ -90,7 +95,7 @@
         "mechatroner.rainbow-csv",
         //// --- draw ---
         "hediet.vscode-drawio",
-        "jebbs.plantuml",
+        // "jebbs.plantuml",
         // "jock.svg",
         //// --- HEX ---
         // "ms-vscode.hexeditor",
@@ -99,9 +104,9 @@
         // "ms-vscode-remote.remote-ssh",
         // "ms-vscode-remote.remote-ssh-edit"
         //// ---- VIM ----
-        "vscodevim.vim",
-        "letrieu.expand-region",
-        "silesky.toggle-boolean",
+        // "vscodevim.vim",
+        // "letrieu.expand-region",
+        // "silesky.toggle-boolean",
         // "ow.vscode-subword-navigation",
     ]
 }
