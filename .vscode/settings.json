@@ -1,14 +1,28 @@
 {
+    "chat.disableAIFeatures": true,
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
     "telemetry.telemetryLevel": "off",
+    "telemetry.feedback.enabled": false,
+    "telemetry.editStats.enabled": false,
     "security.workspace.trust.enabled": false,
     "json.schemaDownload.trustedDomains": {
         "*": true
     },
+    "editor.cursorSurroundingLines": 5,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.smoothScrolling": true,
+    "workbench.list.smoothScrolling": true,
+    "terminal.integrated.smoothScrolling": true,
+    "editor.stickyScroll.enabled": false,
+    "terminal.integrated.stickyScroll.enabled": false,
+    "editor.inlineSuggest.enabled": true,
+    "editor.minimap.enabled": false,
+    "editor.suggest.insertMode": "replace",
+    "editor.autoClosingBrackets": "always",
     "update.showReleaseNotes": false,
     "window.restoreWindows": "none",
     // "extensions.autoUpdate": "onlyEnabledExtensions",
     // "extensions.ignoreRecommendations": true,
-    "chat.commandCenter.enabled": false,
     "files.autoGuessEncoding": true,
     // "files.autoSave": "afterDelay",
     "explorer.compactFolders": false,
@@ -27,8 +41,8 @@
     },
     "editor.linkedEditing": true,
     "editor.fontLigatures": true,
-    "editor.fontFamily": "'JetBrains Mono', 'Hack Nerd Font Propo', Menlo, Monaco, Consolas, 'Courier New', 'Microsoft YaHei', monospace",
-    "terminal.integrated.fontFamily": "'Hack Nerd Font Propo', Menlo, Monaco, Consolas, 'Courier New', monospace",
+    "editor.fontFamily": "'JetBrains Mono', 'Hack Nerd Font Propo', 'Cascadia Code', Menlo, Monaco, Consolas, 'Courier New', 'Microsoft YaHei', monospace",
+    "terminal.integrated.fontFamily": "'Hack Nerd Font Propo', 'Cascadia Mono NF', Menlo, Monaco, Consolas, 'Courier New', monospace",
     // "window.zoomLevel": 1,
     // "editor.fontSize": 14,
     // "editor.fontWeight": "500",
@@ -37,14 +51,6 @@
     "editor.rulers": [
         120
     ],
-    "editor.cursorSmoothCaretAnimation": "on",
-    "editor.cursorSurroundingLines": 5,
-    "editor.smoothScrolling": true,
-    "editor.stickyScroll.enabled": true,
-    "editor.inlineSuggest.enabled": true,
-    "editor.minimap.enabled": false,
-    "editor.suggest.insertMode": "replace",
-    "editor.autoClosingBrackets": "always",
     "window.customTitleBarVisibility": "windowed",
     "window.autoDetectColorScheme": true,
     "workbench.preferredDarkColorTheme": "Catppuccin Mocha",
@@ -62,15 +68,6 @@
         "files.eol": "\r\n",
         "editor.fontLigatures": false
     },
-    "[markdown]": {
-        "editor.quickSuggestions": {
-            "comments": "on",
-            "strings": "on",
-            "other": "on"
-        },
-        "editor.defaultFormatter": "yzhang.markdown-all-in-one",
-        "editor.formatOnSaveMode": "file"
-    },
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
@@ -83,17 +80,37 @@
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
-    "[xml]": {
-        "csharpier.enableDiagnostics": false,
-        "editor.defaultFormatter": "DotJoshJohnson.xml",
-    },
     "[csharp]": {
         "editor.defaultFormatter": "csharpier.csharpier-vscode",
     },
+    "[markdown]": {
+        "editor.quickSuggestions": {
+            "comments": "on",
+            "strings": "on",
+            "other": "on"
+        },
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one",
+        "editor.formatOnSaveMode": "file"
+    },
+    "[xml]": {
+        "editor.defaultFormatter": "DotJoshJohnson.xml",
+        "editor.formatOnSave": false
+    },
+    "cSpell.ignorePaths": [
+        "package-lock.json",
+        "node_modules",
+        "vscode-extension",
+        ".git/{info,lfs,logs,refs,objects}/**",
+        ".git/{index,*refs,*HEAD}",
+        ".vscode",
+        ".vscode-insiders",
+        "**/*.svg"
+    ],
     "js/ts.preferences.importModuleSpecifier": "relative",
     "js/ts.updateImportsOnFileMove.enabled": "always",
+    // "livePreview.customExternalBrowser": "Chrome",
     "csv-edit.readOption_hasHeader": "true",
-    "hediet.vscode-drawio.appearance": "automatic",
+    "excalidraw.theme": "dark",
     "hexeditor.showOpenFileButton": true,
     "terminal.explorerKind": "both",
     "terminal.integrated.copyOnSelection": true,
@@ -103,6 +120,9 @@
     "terminal.external.windowsExec": "wt.exe",
     "trailing-spaces.trimOnSave": true,
     "lldb.suppressUpdateNotifications": true,
+    "markdown-pdf.executablePath": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    // "markdown-pdf.executablePath": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "markdown-preview-enhanced.hideDefaultVSCodeMarkdownPreviewButtons": false,
     "markdown-preview-enhanced.enableExtendedTableSyntax": false,
     "markdown-preview-enhanced.enableTypographer": true,
     "markdown-preview-enhanced.enableHTML5Embed": true,
