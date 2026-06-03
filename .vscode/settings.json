@@ -120,6 +120,8 @@
     "terminal.external.windowsExec": "wt.exe",
     "trailing-spaces.trimOnSave": true,
     "lldb.suppressUpdateNotifications": true,
+    "git-graph.date.format": "ISO Date & Time",
+    "git-graph.repository.commits.showSignatureStatus": true,
     "markdown-pdf.executablePath": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
     // "markdown-pdf.executablePath": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
     "markdown-preview-enhanced.hideDefaultVSCodeMarkdownPreviewButtons": false,
@@ -159,6 +161,8 @@
     "dotnet.inlayHints.suppressInlayHintsForParametersThatDifferOnlyBySuffix": true,
     "dotnet.inlayHints.suppressInlayHintsForParametersThatMatchArgumentName": true,
     "dotnet.inlayHints.suppressInlayHintsForParametersThatMatchMethodIntent": true,
+    // "todo-tree.ripgrep.ripgrep": "D:\\nvim-win64\\bin\\rg.exe",
+    // "todo-tree.ripgrep.ripgrep": "/Applications/Visual Studio Code.app/Contents/Resources/app/node_modules/@vscode/ripgrep-universal/bin/darwin-arm64/rg",
     "todo-tree.highlights.useColourScheme": true,
     "todo-tree.regex.regexCaseSensitive": false,
     "todo-tree.highlights.customHighlight": {
