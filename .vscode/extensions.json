@@ -14,10 +14,10 @@
 
         //// --- markdown ---
         // "bierner.markdown-footnotes", // The foam has this feature
-        "bierner.markdown-mermaid",
-        "bierner.markdown-emoji",
-        "bierner.emojisense",
-        "yzane.markdown-pdf",
+        // "bierner.markdown-mermaid",
+        // "bierner.markdown-emoji",
+        // "bierner.emojisense",
+        // "yzane.markdown-pdf",
         // "tomoki1207.pdf",
         "yzhang.markdown-all-in-one",
         "takumii.markdowntable",
@@ -25,22 +25,24 @@
         "therainisme.clear-markdown-unused-images",
         "shd101wyy.markdown-preview-enhanced",
         "kukushi.pasteurl",
+        "christian-kohler.path-intellisense",
+        "streetsidesoftware.code-spell-checker",
 
         // "telesoho.vscode-markdown-paste-image",
         // "cweijan.vscode-office",
         // "marp-team.marp-vscode",
 
         //// --- git ---
-        "mhutchie.git-graph",
-        "mk12.better-git-line-blame",
+        // "mhutchie.git-graph",
+        // "mk12.better-git-line-blame",
         // "donjayamanne.githistory",
         // "huizhou.githd",
 
         //// --- code ---
-        "usernamehw.errorlens",
+        // "usernamehw.errorlens",
         "shardulm94.trailing-spaces",
         "gruntfuggly.todo-tree",
-        "alefragnani.numbered-bookmarks",
+        // "alefragnani.numbered-bookmarks",
         // "pflannery.vscode-versionlens",
         // "alefragnani.read-only-indicator",
         // "alefragnani.bookmarks",
@@ -56,8 +58,6 @@
         // "gurayyarar.dummytextgenerator",
         // "mekusuri.jsonl-tool",
         // "richie5um2.vscode-sort-json",
-        // "christian-kohler.path-intellisense",
-        // "streetsidesoftware.code-spell-checker",
 
         //// --- strings ---
         // "marclipovsky.string-manipulation",
@@ -67,7 +67,7 @@
 
         //// --- XML/HTML/CSS/JS/TS ---
         "dotjoshjohnson.xml",
-        "esbenp.prettier-vscode",
+        // "esbenp.prettier-vscode",
         // "dbaeumer.vscode-eslint",
         // "ms-vscode.live-server",
         // "bradlc.vscode-tailwindcss",
@@ -90,10 +90,10 @@
         // "jeff-hykin.better-cpp-syntax",
 
         //// --- C# ---
-        "ms-dotnettools.csdevkit",
-        "patcx.vscode-nuget-gallery",
-        "csharpier.csharpier-vscode",
-        "quicktype.quicktype",
+        // "ms-dotnettools.csdevkit",
+        // "patcx.vscode-nuget-gallery",
+        // "csharpier.csharpier-vscode",
+        // "quicktype.quicktype",
         // "humao.rest-client",
         // "avaloniateam.vscode-avalonia",
         // "dabbinavo.xamlstyler",
@@ -102,12 +102,12 @@
         // "ryanluker.vscode-coverage-gutters",
 
         //// --- shell script ---
-        "mkhl.shfmt",
-        "ms-vscode.powershell",
+        // "mkhl.shfmt",
+        // "ms-vscode.powershell",
 
         //// --- csv ---
-        "janisdd.vscode-edit-csv",
-        "mechatroner.rainbow-csv",
+        // "janisdd.vscode-edit-csv",
+        // "mechatroner.rainbow-csv",
 
         //// --- draw ---
         "pomdtr.excalidraw-editor",

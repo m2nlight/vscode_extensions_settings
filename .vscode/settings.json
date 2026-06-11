@@ -1,5 +1,6 @@
 {
     "chat.disableAIFeatures": true,
+    "terminal.integrated.shellIntegration.enabled": false,
     "workbench.secondarySideBar.defaultVisibility": "hidden",
     "telemetry.telemetryLevel": "off",
     "telemetry.feedback.enabled": false,
